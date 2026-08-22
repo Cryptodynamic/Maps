@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <zone name="Sorrow's Reach" id="9b">
   <node id="1" name="Foothills, Abandoned Road">
     <description>Meandering rows of saplings impede your progress as the path seems to try to envelop you in foliage.  Glancing northeast to get your bearings you see mountain brush beginning to take over the landscape.  Occasionally, as you trudge along, your feet scuff up bits of dirt and clay.</description>
@@ -28,6 +28,7 @@
   </node>
   <node id="5" name="Foothills, Road">
     <description>The road here is composed of a chocolate-brown clay, cracked and chipped in places where it has dried after a season of heavy rains.  From here it wends its way through hills covered in dry scrub, dropping from sight as it ducks behind a bend in the distance.  To the north rises a range of stony mountains, their heights dominated by one particularly tall, looming crag whose shadow falls heavily upon the lesser hills around it.</description>
+    <description>The road here is composed of a chocolate-brown clay, cracked and chipped in places where it has dried after a season of heavy rains.</description>
     <position x="160" y="-20" z="0" />
     <arc exit="north" move="north" destination="6" />
     <arc exit="south" move="south" destination="4" />
@@ -58,18 +59,21 @@
   </node>
   <node id="10" name="Foothills, Road">
     <description>Tree-dotted hillsides rise on both sides of the path, providing ample high ground and cover for would-be attackers.  The road here is mostly flat as it meanders along the valley floor, although there is the slightest incline to the north.  One especially large tree lies fallen near the edge of the road, its roots helplessly exposed.</description>
+    <description>Tree-dotted hillsides rise on both sides of the path, providing ample high ground and cover for would-be attackers.</description>
     <position x="200" y="-80" z="0" />
     <arc exit="north" move="north" destination="11" />
     <arc exit="southwest" move="southwest" destination="7" />
   </node>
   <node id="11" name="Foothills, Road">
     <description>The road takes a sharp bend here where it begins to slope more steeply to the west.  The rough hew of the road's northern wall and the beginnings of a dropoff to the southern valley floor indicate that the path here was not created by the simple passing of travellers, but was instead purposely cut into the hillside.</description>
+    <description>The road takes a sharp bend here where it begins to slope more steeply to the west.</description>
     <position x="200" y="-100" z="0" />
     <arc exit="south" move="south" destination="10" />
     <arc exit="west" move="west" destination="12" />
   </node>
   <node id="12" name="Foothills, Road">
     <description>The hard, brown clay of the road is pitted and rutted where it has been traveled during heavy rains.  Although most of the footprints in the road are from human-like creatures or domesticated animals, there is on occasion a large print of a four-toed creature which appears to have a set of rather pointy claws.</description>
+    <description>The hard, brown clay of the road is pitted and rutted where it has been traveled during heavy rains.</description>
     <position x="180" y="-100" z="0" />
     <arc exit="east" move="east" destination="11" />
     <arc exit="west" move="west" destination="13" />
@@ -83,6 +87,7 @@
   </node>
   <node id="14" name="Foothills, Road">
     <description>A tall, regal pine stands watch here over a bend in the road formed by the tapered end of a ridgeline stretching off to the east.  The vegetation in the valley below, somewhat dry and brown to the southwest, transitions into a deep green as it nears the valley floor to the north.</description>
+    <description>A tall, regal pine stands watch here over a bend in the road formed by the tapered end of a ridgeline stretching off to the east.</description>
     <position x="180" y="-120" z="0" />
     <arc exit="east" move="east" destination="15" />
     <arc exit="southwest" move="southwest" destination="13" />
@@ -90,18 +95,21 @@
   </node>
   <node id="15" name="Foothills, Road">
     <description>A thick jungle of dry brush covers the hillside bordering the southern edge of the road, while downslope to the north lies an impenetrable mass of vine-laden oaks.  Although the gathering of trees seems somewhat thinner to the east, the dense vegetation makes travel via the road your only real option.</description>
+    <description>A thick jungle of dry brush covers the hillside bordering the southern edge of the road, while downslope to the north lies an impenetrable mass of vine-laden oaks.</description>
     <position x="200" y="-120" z="0" />
     <arc exit="east" move="east" destination="16" />
     <arc exit="west" move="west" destination="14" />
   </node>
   <node id="16" name="Foothills, Road">
     <description>Tall, moss-covered conifers rub shoulders with lush, green oak on the slopes bordering both sides of the road.  An occasional glimpse through the curtain of trees on the northern downslope reveals the path to be paralleling a river.  To the east you can see a break in the trees where the road turns to march down the hillside below.</description>
+    <description>Tall, moss-covered conifers rub shoulders with lush, green oak on the slopes bordering both sides of the road.</description>
     <position x="220" y="-120" z="0" />
     <arc exit="east" move="east" destination="17" />
     <arc exit="west" move="west" destination="15" />
   </node>
   <node id="17" name="Foothills, Road">
     <description>Tall pines stand in silent vigil at a sharp west-north curve in the road.  Steep hills curve protectively above to the south and east, while to the north the landscape drops sharply as it descends to meet the river below.  A slight smell of charred wood hangs upon the air.</description>
+    <description>Tall pines stand in silent vigil at a sharp west-north curve in the road.</description>
     <position x="240" y="-120" z="0" />
     <arc exit="north" move="north" destination="18" />
     <arc exit="west" move="west" destination="16" />
@@ -109,12 +117,14 @@
   </node>
   <node id="18" name="Foothills, Campsite" color="#00FFFF">
     <description>Charred branches and the occasional ring of blackened stones indicate that this area is used as a campsite.  The lack of ground vegetation and presence of many footprints in the soil suggest that the grounds are well-frequented.  A wide dirt path runs through the campsite, leading from a steep hill to the south down to the riverbank.</description>
+    <description>Charred branches and the occasional ring of blackened stones indicate that this area is used as a campsite.</description>
     <position x="240" y="-140" z="0" />
     <arc exit="north" move="north" destination="19" />
     <arc exit="south" move="south" destination="17" />
   </node>
   <node id="19" name="Foothills, South Riverbank">
     <description>A clear blue river flows shallow and wide over a multitude of rounded stones.  On the far bank, a great jumble of earth stretches up to a stone road paralleling the river to the west.  A wide path of hard-packed soil climbs its way uphill towards a small flat area to the south.</description>
+    <description>A clear blue river flows shallow and wide over a multitude of rounded stones.</description>
     <position x="240" y="-160" z="0" />
     <arc exit="south" move="south" destination="18" />
     <arc exit="west" move="west" destination="20" />
@@ -122,12 +132,14 @@
   </node>
   <node id="20" name="Foothills, South Riverbank">
     <description>A small game trail runs here among the clumps of reeds sprouting between the stones along the riverbank.  Majestic trees of pine and oak thrust high overhead from an upslope to the south, providing cover from the elements.  The far bank, by contrast, is a barren, rocky waste of a cliff which stretches from the riverbank up to and beyond a stone road cut into the hillside.</description>
+    <description>A trail runs here among the reeds.  Majestic trees thrust high overhead.</description>
     <position x="220" y="-160" z="0" />
     <arc exit="east" move="east" destination="19" />
     <arc exit="west" move="west" destination="21" />
   </node>
   <node id="21" name="Foothills, South Canyon Rim" color="#00FFFF">
     <description>Tall patches of grass and an occasional clump of reeds grow here among the smooth stones of the riverbank.  A small game trail wends its way among the grasses, trailing from the flats to the east up a small incline running west along the beginnings of the southern canyon rim.</description>
+    <description>Tall patches of grass and an occasional clump of reeds grow here among the smooth stones of the riverbank.</description>
     <position x="200" y="-160" z="0" />
     <arc exit="east" move="east" destination="20" />
   </node>
@@ -142,30 +154,35 @@
     <arc exit="go" move="go tree-lined path" destination="14" />
   </node>
   <node id="24" name="Foothills, Wooded Path">
-    <description>An unkempt path through the dark pines climbs the hill southward at a steep incline, while to the north it descends to a dusty road.  Skeletal branches reach out like dark hands, threatening to grab and trip at any opportunity.</description>
     <description>Cutting through the thick pines, an unkempt path climbs the hill southward at a steep incline, while to the north it descends to a dusty road.  Gnarled, brittle branches reach out at all angles, threatening to grab and trip at any opportunity.  Light filters through skeletal limbs, casting shadows on the ground litter in random patterns that change as the sun moves through the sky.</description>
+    <description>Cutting through the thick pines, an unkempt path climbs the hill southward at a steep incline, while to the north it descends to a dusty road.</description>
+    <description>An unkempt path through the dark pines climbs the hill southward at a steep incline, while to the north it descends to a dusty road.  Skeletal branches reach out like dark hands, threatening to grab and trip at any opportunity.</description>
     <position x="260" y="-120" z="0" />
     <arc exit="up" move="up" destination="25" />
     <arc exit="go" move="go dusty road" destination="17" />
   </node>
   <node id="25" name="Foothills, Wooded Path">
-    <description>The trail rises steeply through the thinning trees to the south, giving travelers a workout heading either direction along the precipitous slope.  Ground litter and the reduced visibility make footing treacherous at best as well as noticeably muffling noise underfoot.  Cricket song fills the air, deafening at times, obscuring the otherwise gentle sounds of nighttime wildlife that might be present.</description>
     <description>The angle of the path gives travelers a workout, navigating through the trees that thin toward the rise to the south.  Ground litter makes footing treacherous at times as well as noticeably muffling noise underfoot.  Despite the obvious lack of use to the area, the abundant sounds of wildlife indicate it is quite a thriving environment.</description>
+    <description>The angle of the path gives travelers a workout, navigating through the trees that thin toward the rise to the south.  Ground litter makes footing treacherous at times as well as noticeably muffling noise underfoot.</description>
+    <description>The trail rises steeply through the thinning trees to the south, giving travelers a workout heading either direction along the precipitous slope.  Ground litter and the reduced visibility make footing treacherous at best as well as noticeably muffling noise underfoot.  Cricket song fills the air, deafening at times, obscuring the otherwise gentle sounds of nighttime wildlife that might be present.</description>
+    <description>The trail rises steeply through the thinning trees to the south, giving travelers a workout heading either direction along the precipitous slope.  Ground litter and the reduced visibility make footing treacherous at best as well as noticeably muffling noise underfoot.</description>
     <position x="260" y="-100" z="0" />
     <arc exit="up" move="up" destination="26" />
     <arc exit="down" move="down" destination="24" />
     <arc exit="go" move="search go hidden trail" destination="124" />
   </node>
   <node id="26" name="Foothills, Wooded Slope">
-    <description>Dark silhouettes of pine trees line the slope to the north, dropping downhill along a trail through the trees.  The dim shades of night reveal a wide field, coloring everything below in subtle shades of grey.  Soft grasses sway with the breezes rushing over the open plain, a path pressed into the ground leading from the tree line to a meadow in the distance.</description>
-    <description>Pine trees line the slope to the north, heading downhill along a trail to the dry road barely discernable through the trees.  A wide field opens under the daytime sky, where soft grasses sway with the breezes rushing over the open plain.  Soft grasses sway with the breezes rushing over the open plain, a path pressed into the ground leading from the tree line to a meadow in the distance.</description>
     <description>Pine trees line the slope to the north, heading downhill along a trail to the dry road barely discernable through the trees.  A wide field opens under the daytime sky, where soft grasses sway with the breezes rushing over the open plain.  A path pressed into the ground leads from the tree line to a meadow in the distance.</description>
+    <description>Pine trees line the slope to the north, heading downhill along a trail to the dry road barely discernable below through the trees.</description>
+    <description>Dark silhouettes of pine trees line the slope to the north, dropping downhill along a trail through the trees.  The dim shades of night reveal a wide field, coloring everything below in subtle shades of grey.  Soft grasses sway with the breezes rushing over the open plain, a path pressed into the ground leading from the tree line to a meadow in the distance.</description>
+    <description>Dark silhouettes of pine trees line the slope to the north, dropping downhill along a trail through the trees.</description>
     <position x="260" y="-80" z="0" />
     <arc exit="south" move="south" destination="27" />
     <arc exit="down" move="down" destination="25" />
   </node>
   <node id="27" name="Wildflower Meadow, Before the Gods" note="Shrine|Prydaen Favors|Favors" color="#A6A3D9">
     <description>Wildflowers circle a leafy bush and a large, flat boulder, the surface of which is rounded due to years of exposure to the wind and rain.  Lush grass blankets the ground like a living carpet that softens footfalls.  A faint path heads toward the tree line to the north, while the field drops off elsewhere in the other directions.</description>
+    <description>Wildflowers circle a leafy bush and a large, flat boulder, the surface of which is rounded due to years of exposure to the wind and rain.</description>
     <position x="260" y="-60" z="0" />
     <arc exit="north" move="north" destination="26" />
   </node>
@@ -182,6 +199,7 @@
   </node>
   <node id="30" name="Foothills, North Riverbank">
     <description>It appears that part of the northern hillside has recently given way, for a large tumble of rocks and splintered trees leads from the riverbank to a small ridge above.  A few steps to the south flow the stony, cold waters of the river.</description>
+    <description>It appears that part of the northern hillside has recently given way, for a large tumble of rocks and splintered trees leads from the riverbank to a small ridge above.</description>
     <position x="240" y="-200" z="0" />
     <arc exit="go" move="go small hole" destination="31" />
     <arc exit="climb" move="climb hillside" destination="32" />
@@ -189,6 +207,7 @@
   </node>
   <node id="31" name="Flagstone, Burrow">
     <description>Small scraps of cloth, driftwood, and various unidentifiable pieces of jetsam line the walls and floor of this dank, fetid burrow.  A heavy odor almost seems to squeak 'Rodent!' in your nostrils with every reluctant breath you take, and the occasional scrabbling you hear in the recesses of the hole is certainly more than just your imagination.</description>
+    <description>Small scraps of cloth, driftwood, and various unidentifiable pieces of jetsam line the walls and floor of this dank, fetid burrow.</description>
     <position x="260" y="-200" z="0" />
     <arc exit="out" move="out" destination="30" />
   </node>
@@ -207,31 +226,36 @@
   </node>
   <node id="34" name="Low Mountains, Stone Road">
     <description>A crumbled tower of black stone, pitted along its once smooth face, lies here in a great heap along the southern edge of the road.  Several large, charred timbers jut from the pile like skeletal fingers, pointing at the heavens in mute accusation of a long-ago crime.</description>
+    <description>A crumbled tower of black stone, pitted along its once smooth face, lies here in a great heap along the southern edge of the road.</description>
     <position x="200" y="-220" z="0" />
     <arc exit="east" move="east" destination="33" />
     <arc exit="west" move="west" destination="46" />
   </node>
   <node id="35" name="Abandoned Clan, Entry" note="Abandoned Clan" color="#00FFFF">
-    <description>A black granite arch looks out upon the remains of a flagstone road that stretches west towards a tall spire of grey and black rock.  Paired doors carved of solid onyx hang askew on broken hinges to either side of the arch, held upright by the remains of an avalanche recently tumbled down from the nearby hillside.  The road continues through the arch and on into the darkness.  A spluttering torch dimly illuminates the way in and downward.</description>
     <description>A black granite arch looks out upon the remains of a flagstone road that stretches west towards a tall spire of grey and black rock.  Paired doors carved of solid onyx hang askew on broken hinges to either side of the arch, held upright by the remains of an avalanche recently tumbled down from the nearby hillside.  The road continues through the arch and on into the darkness, with light from the outside dimly illuminating the way in and downward.</description>
+    <description>A black granite arch looks out upon the remains of a flagstone road.  Paired doors carved of solid onyx hang askew on broken hinges to either side of the arch.  The road continues through the arch and on into the darkness.</description>
+    <description>A black granite arch looks out upon the remains of a flagstone road that stretches west towards a tall spire of grey and black rock.  Paired doors carved of solid onyx hang askew on broken hinges to either side of the arch, held upright by the remains of an avalanche recently tumbled down from the nearby hillside.  The road continues through the arch and on into the darkness.  A spluttering torch dimly illuminates the way in and downward.</description>
     <position x="240" y="-240" z="0" />
     <arc exit="east" move="east" destination="36" />
     <arc exit="go" move="go granite arch" destination="32" />
   </node>
   <node id="36" name="Abandoned Clan, Entry Hall" color="#00FFFF">
     <description>The smooth, finished walls of this tunnel mark it unmistakeably as a Dwarven clan home.  Small, musty clouds of dust rise at the slightest movement, their presence attesting to the long-ago abandonment of this area by its creators.</description>
+    <description>The smooth, finished walls of this tunnel mark it as a Dwarven clan home.  Small, musty clouds of dust rise at the slightest movement.</description>
     <position x="260" y="-240" z="0" />
     <arc exit="east" move="east" destination="37" />
     <arc exit="west" move="west" destination="35" />
   </node>
   <node id="37" name="Abandoned Clan, Entry Hall" color="#00FFFF">
     <description>The spirits of an ancient people mutter softly with the echo of every sound that reverbrates through the tunnel.  To one side of the path lists an abandoned oxcart, its axle rusted and split by long years of neglect.  The highway makes another downward turn to the east and widens into a natural cavern.</description>
+    <description>The spirits of an ancient people mutter softly with the echo of every sound that reverbrates through the tunnel.  The highway makes another downward turn to the east and widens into a natural cavern.</description>
     <position x="280" y="-240" z="0" />
     <arc exit="east" move="east" destination="38" />
     <arc exit="west" move="west" destination="36" />
   </node>
   <node id="38" name="Abandoned Clan, Great Hall" color="#00FFFF">
     <description>Sparkling gems embedded in the ceiling high above refract torchlight upon the surrounding walls in bizarre, kaleidoscopic patterns.  A starburst constructed of varying shades of marble dominates the center of the chamber floor, its surface curiously clean in stark contrast to the surrounding dust.  Three small passages to the east lead further into the depths of the clan home.</description>
+    <description>Sparkling gems embedded in the ceiling refract torchlight upon the walls in kaleidoscopic patterns.</description>
     <position x="300" y="-240" z="0" />
     <arc exit="northeast" move="northeast" destination="39" />
     <arc exit="east" move="east" destination="44" />
@@ -240,192 +264,224 @@
   </node>
   <node id="39" name="Abandoned Clan, Dusty Passage" color="#00FFFF">
     <description>The passage narrows here, the weight of the hillside seeming to bear down from above.  Several doors are set seamlessly into the surrounding walls, distinguishable only by slight color variations in the stonework.</description>
+    <description>The passage narrows here, the weight of the hillside seeming to bear down from above.  Several doors are set seamlessly into the surrounding walls.</description>
     <position x="320" y="-260" z="0" />
     <arc exit="east" move="east" destination="40" />
     <arc exit="southwest" move="southwest" destination="38" />
   </node>
   <node id="40" name="Abandoned Clan, Dusty Passage" color="#00FFFF">
     <description>Gaezthen spheres in finely-worked silver sconces line the walls of the corridor at regular intervals.  Vague outlines of doors mark the entrances to private dwellings.</description>
+    <description>Gaezthen spheres in finely-worked silver sconces line the walls of the corridor.  Vague outlines of doors mark the entrances to private dwellings.</description>
     <position x="340" y="-260" z="0" />
     <arc exit="southeast" move="southeast" destination="41" />
     <arc exit="west" move="west" destination="39" />
   </node>
   <node id="41" name="Abandoned Clan, Dim Corner" color="#00FFFF">
     <description>The light dims considerably at this juncture of the corridors.  A tunnel leading to the east has collapsed into a massive pile of rubble, preventing further passage into the clan's stronghold.</description>
+    <description>The light dims considerably at this juncture of the corridors.  A tunnel leading to the east has collapsed into a pile of rubble.</description>
     <position x="360" y="-240" z="0" />
     <arc exit="southwest" move="southwest" destination="42" />
     <arc exit="northwest" move="northwest" destination="40" />
   </node>
   <node id="42" name="Abandoned Clan, Dank Tunnel" color="#00FFFF">
     <description>The soft burbling of an underground spring whispers from somewhere beyond the tunnel walls.  A long patch of phosphoresecent scarlet fungus climbs one wall of the tunnel, the dim light it emits casting sunset hues upon the doors set into the granite.</description>
+    <description>The soft burbling of an underground spring whispers from somewhere beyond the tunnel walls.  A long patch of phosphoresecent scarlet fungus climbs one wall.</description>
     <position x="340" y="-220" z="0" />
     <arc exit="northeast" move="northeast" destination="41" />
     <arc exit="west" move="west" destination="43" />
   </node>
   <node id="43" name="Abandoned Clan, Dank Tunnel" color="#00FFFF">
     <description>Water trickles from a hairline fracture along one wall, across the floor and under one of the doors lining the tunnel.  A strong smell of decaying vegetation hangs in the air.</description>
+    <description>Water trickles along one wall, across the floor and under one of the doors lining the tunnel.</description>
     <position x="320" y="-220" z="0" />
     <arc exit="east" move="east" destination="42" />
     <arc exit="northwest" move="northwest" destination="38" />
   </node>
   <node id="44" name="Abandoned Clan, Council Chamber">
     <description>A long, low table set with several wooden chairs curves before the forward edge of a slightly raised circular dais.  Rotting tapestries hang behind the dais, their colors muted by age and further sullied by the great clouds of dust that kick up with every disturbance of the floor.  A large steel door, covered with lime and streaks of rust, sits in a recess at the back of the chamber.</description>
+    <description>A long, low table set with several wooden chairs curves before the forward edge of a slightly raised circular dais.  A large steel door, covered with lime and streaks of rust, sits in a recess at the back of the chamber.</description>
     <position x="320" y="-240" z="0" />
     <arc exit="north" move="north" destination="45" />
     <arc exit="west" move="west" destination="38" />
   </node>
   <node id="45" name="Abandoned Clan, Buried Treasures" note="Buried Treasures" color="#FF0000">
     <description>A collection of finest Dwarven stonework fills this shop, stout furnishings that, while simple, will last several lifetimes.</description>
+    <description>A collection of finest Dwarven stonework fills this shop.</description>
     <position x="320" y="-250" z="0" />
     <arc exit="south" move="south" destination="44" />
   </node>
   <node id="46" name="Low Mountains, Cliff Wall">
     <description>A wide stone road which stretches off to the east ends here at a sheer cliff wall, giving way to a decrepit wooden bridge that spans southward across a small gap in the canyon.  From the cliff heights far above juts a small promontory of stone, behind which you can see a small cave leading into the mountains.</description>
+    <description>A wide stone road which stretches off to the east ends here at a sheer cliff wall, giving way to a decrepit wooden bridge that spans southward across a small gap in the canyon.</description>
     <position x="160" y="-220" z="0" />
     <arc exit="east" move="east" destination="34" />
     <arc exit="go" move="go wooden bridge" destination="47" />
   </node>
-  <node id="47" name="Low Mountains, River Bridge">
+  <node id="47" name="Low Mountains, River Bridge" note="River Bridge">
     <description>The bridge on which you stand has definitely seen better days.  Wide as two men are tall and the length of a large, fallen pine, it has dry-rotted from too many years of wet snows and blistering summer suns.  A number of holes in the decomposed floorboards offer glimpses of the river below.</description>
+    <description>The bridge on which you stand has definitely seen better days.  Wide as two men are tall and the length of a large, fallen pine, it has dry-rotted from too many years of wet snows and blistering summer suns.</description>
     <position x="160" y="-200" z="0" />
     <arc exit="north" move="north" destination="46" />
     <arc exit="south" move="south" destination="48" />
   </node>
   <node id="48" name="Low Mountains, Stone Road">
     <description>A decrepit, flat wooden bridge crosses the canyon to the north.  The bridge appears to be a hastily assembled substitute for the original stone bridge, the remains of which arch a few feet over the canyon on either side.  A road of wide, grey flagstones winds southwest into the mountains.</description>
+    <description>A decrepit, flat wooden bridge crosses the canyon to the north.</description>
     <position x="160" y="-180" z="0" />
     <arc exit="southwest" move="southwest" destination="49" />
     <arc exit="go" move="go wooden bridge" destination="47" />
   </node>
   <node id="49" name="Low Mountains, Stone Road">
     <description>The ancient stone road winds ambitiously along the southern face of the mountain range, turning frequently in its effort to bypass obstacles thrown up by the steep, rocky slopes.  Clumps of small stones and the occasional large boulder line the northern edge of the path, silently watching your passage.</description>
+    <description>The ancient stone road winds ambitiously along the southern face of the mountain range, turning frequently in its effort to bypass obstacles thrown up by the steep, rocky slopes.</description>
     <position x="140" y="-160" z="0" />
     <arc exit="northeast" move="northeast" destination="48" />
     <arc exit="southwest" move="southwest" destination="50" />
   </node>
   <node id="50" name="Low Mountains, Stone Road" color="#00FFFF">
     <description>At times wide and flat, but most often a steep, winding path, the road here writhes snake-like in its travel through the rocky heights of the mountains.  Much of the road is cloaked in shadow, as what light comes from above is oft blocked by the high, stony crags on either side of the twisting path.</description>
+    <description>At times wide and flat, but most often a steep, winding path, the road here writhes snake-like in its travel through the rocky heights of the mountains.</description>
     <position x="120" y="-140" z="0" />
     <arc exit="northeast" move="northeast" destination="49" />
     <arc exit="southwest" move="southwest" destination="51" />
   </node>
   <node id="51" name="Low Mountains, Stone Road">
     <description>Great peaks of craggy grey stone, devoid of vegetation, rise above on all sides save for a steep, winding road that stumbles its way northeast down the mountain.  The road's builders apparently decided at this point that passage over the mountains was impossible, for here the flagstones enter the gaping black maw of a tunnel.</description>
+    <description>Great peaks of craggy grey stone, devoid of vegetation, rise above on all sides save for a steep, winding road that stumbles its way northeast down the mountain.</description>
     <position x="100" y="-120" z="0" />
     <arc exit="northeast" move="northeast" destination="50" />
-    <arc exit="go" move="go tunnel" destination="52" />
+    <arc exit="go" move="go large tunnel" destination="52" />
     <arc exit="go" move="go narrow crack" destination="71" />
   </node>
   <node id="52" name="Mountains, Tunnel">
     <description>A soft glow emanates from the tunnel mouth before you, but the light quickly fades as it filters into the tunnel's malevolent, grasping blackness.  To the west climb the silent, grey flagstones of the ancient road.</description>
+    <description>A soft glow emanates from the tunnel mouth before you, but the light quickly fades as it filters into the tunnel's malevolent, grasping blackness.</description>
     <position x="80" y="-140" z="0" />
     <arc exit="west" move="west" destination="53" />
     <arc exit="out" move="out" destination="51" />
   </node>
   <node id="53" name="Mountains, Tunnel">
     <description>Like a Will-O-Wisp waiting to lure the unwary to their doom, the dim circle of the tunnel exit glows in the distance below.  Your only choices are a heavy eastern descent to freedom, or to trudge into the sucking blackness which lies a steep climb to the west.</description>
+    <description>Like a Will-O-Wisp waiting to lure the unwary to their doom, the dim circle of the tunnel exit glows in the distance below.</description>
     <position x="60" y="-140" z="0" />
     <arc exit="east" move="east" destination="52" />
     <arc exit="west" move="west" destination="54" />
   </node>
   <node id="54" name="Mountains, Tunnel">
     <description>Darkness swirls and eddies about you like a malevolent fog, clutching greedily at your clothing as you feel your way along the ancient road.  The stones underfoot are slick with moisture, and with each scrape of your feet whisper of unseen chasms ahead.</description>
+    <description>Darkness swirls and eddies about you like a malevolent fog, clutching greedily at your clothing as you feel your way along the ancient road.</description>
     <position x="40" y="-140" z="0" />
     <arc exit="east" move="east" destination="53" />
     <arc exit="west" move="west" destination="55" />
   </node>
   <node id="55" name="Mountains, Tunnel">
     <description>A faint, glowing circle squats stolidly in the western firmaments above, indicating a steep climb to the freedom of open skies and fresh air.  Other than your erstwhile lunar companion, the darkness here is absolute.</description>
+    <description>A faint, glowing circle squats stolidly in the western firmaments above, indicating a steep climb to the freedom of open skies and fresh air.</description>
     <position x="20" y="-140" z="0" />
     <arc exit="east" move="east" destination="54" />
     <arc exit="west" move="west" destination="56" />
   </node>
   <node id="56" name="Mountains, Tunnel">
     <description>What faint light manages to filter from the nearby tunnel mouth is quickly absorbed by the hungry blackness all around you.  There is an odd rushing sound, akin to that of strong winds blowing through the tall trees of a forest, coming from outside the tunnel.</description>
+    <description>What faint light manages to filter from the nearby tunnel mouth is quickly absorbed by the hungry blackness all around you.</description>
     <position x="0" y="-140" z="0" />
     <arc exit="east" move="east" destination="55" />
     <arc exit="out" move="out" destination="57" />
   </node>
   <node id="57" name="Mountains, Waterfall">
     <description>You are on a wide plateau of stone, high above a mighty river gorge which slashes its way east into the distance.  All around you towers the treeless, rocky spire of Sorrow's Reach, its stony roots curving protectively down around the canyon's western limits.  A mighty river of white water bursts eagerly from a cavern mouth high upon the north face of the Reach, roaring forth to plummet into a wide pool in the depths of the canyon below.</description>
+    <description>You are on a wide plateau of stone, high above a mighty river gorge which slashes its way east into the distance.</description>
     <position x="-40" y="-140" z="0" />
-    <arc exit="go" move="go path" destination="58" />
+    <arc exit="go" move="go cliffside path" destination="58" />
     <arc exit="go" move="go dark tunnel" destination="56" />
   </node>
   <node id="58" name="Sorrow's Reach, Cliff Path">
     <description>The path here is barely wide enough to accommodate a single person.  The wall to the west offers little in the way of support, being nearly devoid of handgrips and just as slick as the rock below your feet.  One slip of a foot to the east lies a drop into the reaches of infinity.</description>
+    <description>The path here is barely wide enough to accommodate a single person.</description>
     <position x="-40" y="-180" z="0" />
     <arc exit="north" move="north" destination="59" />
     <arc exit="south" move="south" destination="57" />
   </node>
   <node id="59" name="Mountains, Waterfall">
     <description>A road of square grey flagstones begins here in a corner guarded to the west and north by the sheer cliffs of the Reach.  The assembly of dull grey stones, shiny black where they have been chipped or worn smooth by passing traffic, stretch behind the waterfall to the east before winding their way up the mountainside.</description>
+    <description>A road of square grey flagstones begins here in a corner guarded to the west and north by the sheer cliffs of the Reach.</description>
     <position x="-40" y="-200" z="0" />
     <arc exit="east" move="east" destination="60" />
-    <arc exit="go" move="go path" destination="58" />
+    <arc exit="go" move="go cliffside path" destination="58" />
   </node>
   <node id="60" name="Mountains, Behind Waterfall">
     <description>The great roar of the river beast rushing from above beats upon your ears like a winter storm battering a coastal village.  Although this small stone grotto would at first glance seem an ideal hiding place, its algae slickened floor and body soaking humidity make it unlikely anyone would use it as such.</description>
+    <description>The great roar of the river beast rushing from above beats upon your ears like a winter storm battering a coastal village.</description>
     <position x="-20" y="-200" z="0" />
     <arc exit="east" move="east" destination="61" />
     <arc exit="west" move="west" destination="59" />
   </node>
   <node id="61" name="Mountains, Waterfall">
     <description>A sharp bend in the road provides a good vantage point for monitoring traffic passing near the waterfall to the west.  Several large boulders border either side of the path, providing ample cover for would-be assailants.</description>
+    <description>A sharp bend in the road provides a good vantage point for monitoring traffic passing near the waterfall to the west.</description>
     <position x="0" y="-200" z="0" />
     <arc exit="southeast" move="southeast" destination="62" />
     <arc exit="west" move="west" destination="60" />
   </node>
   <node id="62" name="Mountains, Stone Road">
     <description>A slight sound of rushing water reaches your ears, complementing the smooth whisper of the winds which blow up the canyon and across the stony face of the Reach.  The road here, level to the northwest, begins to climb slightly as it stretches to the east.</description>
+    <description>A slight sound of rushing water reaches your ears, complementing the smooth whisper of the winds which blow up the canyon and across the stony face of the Reach.</description>
     <position x="20" y="-180" z="0" />
     <arc exit="east" move="east" destination="63" />
     <arc exit="northwest" move="northwest" destination="61" />
   </node>
   <node id="63" name="High Mountains, Stone Road">
     <description>A gnarled, twisted pine, bent with age and stunted from a life far above the treeline, hangs precariously over the edge of the canyon rim as if considering an end to its pitiful existence.  Something seems to have taken the signs of the tree's weakness as an invitation to attack, for most of its bark has been shredded away from its trunk in long, thin strips.</description>
+    <description>A gnarled, twisted pine, bent with age and stunted from a life far above the treeline, hangs precariously over the edge of the canyon rim as if considering an end to its pitiful existence.</description>
     <position x="40" y="-180" z="0" />
     <arc exit="east" move="east" destination="64" />
     <arc exit="west" move="west" destination="62" />
   </node>
   <node id="64" name="High Mountains, Stone Road">
     <description>A sharp bend in the road has been rendered treacherous by the collapse of most of its surface into the canyon below.  Only one width of flagstones remains at the narrowest point, and it appears that a great deal of the earth underneath has already washed away.  Long, sharp scratches in the mountain wall bordering the road almost appear to be the frenzied digging of some creature intent on widening the passage.</description>
+    <description>A sharp bend in the road has been rendered treacherous by the collapse of most of its surface into the canyon below.</description>
     <position x="60" y="-180" z="0" />
     <arc exit="northeast" move="northeast" destination="65" />
     <arc exit="west" move="west" destination="63" />
   </node>
   <node id="65" name="High Mountains, Stone Road">
     <description>Tall piles of small, black stones lie on either side of the road here, slowing passage along mountain.  Several of the stones have been used to create a crude fire ring on the uphill side of the piles, and a few animal bones, picked clean of flesh, lie scattered about the area.</description>
+    <description>Tall piles of small, black stones lie on either side of the road here, slowing passage along mountain.</description>
     <position x="80" y="-200" z="0" />
     <arc exit="northeast" move="northeast" destination="66" />
     <arc exit="southwest" move="southwest" destination="64" />
   </node>
   <node id="66" name="High Mountains, Stone Road">
     <description>Weeds choke the cracks between mighty flagstones of coarse grey rock.  The road here rises slightly to the north, while a bend to the southwest begins a torturous descent to the hills below.  A rope bridge can be seen in the distance, stretching across the canyon from a rocky outcropping to the northeast.</description>
+    <description>Weeds choke the cracks between mighty flagstones of coarse grey rock.</description>
     <position x="100" y="-220" z="0" />
     <arc exit="north" move="north" destination="67" />
     <arc exit="southwest" move="southwest" destination="65" />
   </node>
   <node id="67" name="Sorrow's Reach, Cavern Mouth" note="Cavern Mouth">
     <description>You are standing on a massive slab of flat, grey stone cut into one side of the Reach.  The north and west walls are soaring towers of granite, while to the south and east lie sheer cliffs which stretch a lifetime's fall to the canyon floor below.  A rope bridge, attached to a natural outcropping of stone, sways in the breeze above the canyon.</description>
+    <description>You are standing on a massive slab of flat, grey stone cut into one side of the Reach.</description>
     <position x="100" y="-240" z="0" />
     <arc exit="south" move="south" destination="66" />
     <arc exit="go" move="go rope bridge" destination="68" />
   </node>
   <node id="68" name="High Mountains, Rope Bridge">
     <description>A sharp, cool wind tugs at your clothing as you stand upon this modest bridge of stick and rope.  Far, far below you can see a small wooden bridge spanning the canyon, and even further beyond stretches a slight band of blue which you can only assume to be the river.</description>
+    <description>A sharp, cool wind tugs at your clothing as you stand upon this modest bridge of stick and rope.</description>
     <position x="120" y="-220" z="0" />
     <arc exit="southeast" move="southeast" destination="69" />
     <arc exit="northwest" move="northwest" destination="67" />
   </node>
   <node id="69" name="High Mountains, Rope Bridge">
     <description>Ringed by dark clouds of grey, the massive, stony crag of Sorrow's Reach looms above you to the north like the thrusted fist of an angry earth-god.  A deep river gorge has ripped its way through the lands at the base of the Reach, creating a formidable barrier to those who would scale its heights.  The canyon would be nigh impossible to cross, were it not for a simple rope bridge which stretches across to a stone plateau in the mountainside.</description>
+    <description>Ringed by dark clouds of grey, the massive, stony crag of Sorrow's Reach looms above you to the north like the thrusted fist of an angry earth-god.</description>
     <position x="140" y="-200" z="0" />
     <arc exit="south" move="south" destination="70" />
     <arc exit="go" move="go rope bridge" destination="68" />
   </node>
   <node id="70" name="High Mountains, Small Path">
     <description>A small footpath wending its way from the north ends here at the top of what must have been a mighty avalanche indeed.  Splintered trees and boulders the size of small houses lie jumbled together in a great rockslide which seems to reach all the way to the foothills below.</description>
+    <description>A small footpath wending its way from the north ends here at the top of what must have been a mighty avalanche indeed.</description>
     <position x="140" y="-180" z="0" />
     <arc exit="north" move="north" destination="69" />
   </node>
@@ -437,12 +493,14 @@
   </node>
   <node id="72" name="Promado Village, Middle of Pass">
     <description>The pass winds and twists between rugged walls of dark stone, boulders precariously balanced on the cliffs far above.  The numerous craters on the overgrown path, where chunks of rock lie embedded as deep as a foot into the stony soil, bear silent testimony to the danger here.</description>
+    <description>The pass winds and twists between rugged walls of dark stone, boulders precariously balanced on the cliffs far above.</description>
     <position x="20" y="-60" z="0" />
     <arc exit="east" move="east" destination="71" />
     <arc exit="west" move="west" destination="73" />
   </node>
   <node id="73" name="Promado Village, Mouth of Pass">
     <description>The narrow pass through the mountainside changes shape here, widening into a valley to the west and squeezing into a narrow, rocky passage to the east.  In the shadow of western cliffs stands a ruined village, ramshackle huts and crude wooden buildings standing empty and silent, not even the chirping of birds or the buzzing of insects relieving the eerie, dead stillness.</description>
+    <description>The narrow pass through the mountainside changes shape here, widening into a valley to the west and squeezing into a narrow, rocky passage to the east.</description>
     <position x="0" y="-60" z="0" />
     <arc exit="east" move="east" destination="72" />
     <arc exit="west" move="west" destination="74" />
@@ -456,12 +514,14 @@
   </node>
   <node id="75" name="Promado Village, Village Boundary">
     <description>The eastern boundary of the village proper is a tangled mass of dry grass and weed grown between piles of splintered boulders tumbled from the cliff face above.  Tiny abandoned homes, most of them long ago flattened into kindling, lie scattered about the landscape.  The tip of a black obelisk can be seen poking its head over two still-standing homes to the west.</description>
+    <description>The eastern boundary of the village proper is a tangled mass of dry grass and weed grown between piles of splintered boulders tumbled from the cliff face above.</description>
     <position x="-40" y="-60" z="0" />
     <arc exit="east" move="east" destination="74" />
     <arc exit="west" move="west" destination="76" />
   </node>
   <node id="76" name="Promado Village, East Circle">
     <description>The eastern trail merges with a wide, circular boulevard here, broken cobblestones littered across upturned black soil.  A tall, black obelisk looms in an open plaza to the west, encircled by the road that arches protectively around it.</description>
+    <description>The eastern trail merges with a wide, circular boulevard here, broken cobblestones littered across upturned black soil.</description>
     <position x="-60" y="-60" z="0" />
     <arc exit="east" move="east" destination="75" />
     <arc exit="southwest" move="southwest" destination="80" />
@@ -470,6 +530,7 @@
   </node>
   <node id="77" name="Promado Village, Obelisk" note="Promado Village">
     <description>A tall obsidian obelisk, chipped and cracked and sunken into the earth at a jagged lean, stands at the center of the village.  Broken and abandoned buildings stand silently around the boulevard, dwarfed by the tall, crumbling facade of a church to the west.</description>
+    <description>A tall obsidian obelisk, chipped and cracked and sunken into the earth at a jagged lean, stands at the center of the village.</description>
     <position x="-80" y="-60" z="0" />
     <arc exit="north" move="north" destination="79" />
     <arc exit="east" move="east" destination="76" />
@@ -478,6 +539,7 @@
   </node>
   <node id="78" name="Promado Village, West Circle">
     <description>The west end of the boulevard runs before the tallest building in the village, a church sided with clapboard and peeling white paint.  Several ruined homes stand in the shadow of the building's tall bell tower.</description>
+    <description>The west end of the boulevard runs before a church sided with clapboard and peeling white paint.</description>
     <position x="-100" y="-60" z="0" />
     <arc exit="northeast" move="northeast" destination="79" />
     <arc exit="east" move="east" destination="77" />
@@ -486,15 +548,18 @@
   </node>
   <node id="79" name="Promado Village, North Circle">
     <description>North of the village monument, this part of the boulevard runs past a small, ramshackle building with two small obsidian obelisks sitting on its front porch.  A smaller footpath, all that remains of a larger road, wends to the northwest through tall, dry grasses.</description>
+    <description>North of the village monument, this part of the boulevard runs past a small, ramshackle building with two small obsidian obelisks sitting on its front porch.</description>
     <position x="-80" y="-80" z="0" />
     <arc exit="southeast" move="southeast" destination="76" />
     <arc exit="south" move="south" destination="77" />
     <arc exit="southwest" move="southwest" destination="78" />
     <arc exit="northwest" move="northwest" destination="105" />
+    <arc exit="go" move="go iron gate" destination="141" />
     <arc exit="go" move="go ramshackle building" destination="104" />
   </node>
   <node id="80" name="Promado Village, South Circle">
     <description>South of the village monument, this part of the boulevard passes by the burnt-out shells of sad, empty houses.  A smaller road stretches off to the south.</description>
+    <description>South of the village monument, this part of the boulevard passes by the burnt-out shells of sad, empty houses.</description>
     <position x="-80" y="-40" z="0" />
     <arc exit="north" move="north" destination="77" />
     <arc exit="northeast" move="northeast" destination="76" />
@@ -503,12 +568,14 @@
   </node>
   <node id="81" name="Promado Village, Cart Path">
     <description>The path cuts through a grassy field, away from the village and towards a cluster of low, grey stones to the southwest.  Deep gouges cut into the ground betray the passage of a heavily laden wagon.</description>
+    <description>The path cuts through a grassy field, away from the village and towards a cluster of low, grey stones to the southwest.</description>
     <position x="-40" y="-40" z="0" />
     <arc exit="northeast" move="northeast" destination="74" />
     <arc exit="southwest" move="southwest" destination="82" />
   </node>
   <node id="82" name="Promado Village, Graveyard">
     <description>Dozens of grey stones, many toppled flat and half-buried in the overgrown grass, lie scattered about the ground.  Although most are faceless, half-legible inscriptions on one or two show them to be gravestones.  The number of markers seems abnormally large for such a small village, and it is apparent from the crowds of newer stones jammed between the neatly ordered rows that many of the graves were dug in a short period of time.</description>
+    <description>Dozens of grey stones, many toppled flat and half-buried in the overgrown grass, lie scattered about the ground.</description>
     <position x="-60" y="-20" z="0" />
     <arc exit="northeast" move="northeast" destination="81" />
     <arc exit="south" move="south" destination="84" />
@@ -523,6 +590,7 @@
   </node>
   <node id="84" name="Promado Village, Outside Cave">
     <description>A multitude of smooth grey stones peep above the sea of grass here in the shadow of the cliff wall at the southern end of the valley.  The dark mouth of a cave stands at the trail's end, a pair of deep wagon tracks leading right inside.  A fetid smell drifts from the cave, something like a dead animal rotting.</description>
+    <description>A multitude of smooth grey stones peep above the sea of grass here in the shadow of the cliff wall at the southern end of the valley.  The dark mouth of a cave stands at the trail's end, a pair of deep wagon tracks leading right inside.</description>
     <position x="-60" y="0" z="0" />
     <arc exit="north" move="north" destination="82" />
     <arc exit="go" move="go cave" destination="101" />
@@ -634,39 +702,48 @@
   </node>
   <node id="101" name="Promado Village, Cave Tunnel">
     <description>The welcome light of day streams in through the mouth of this dank tunnel where it exits to a small, grassy valley.  Further south, the rough stone floor slopes sharply downward, out of sight and closer to the stench of decay that pervades the gloom.</description>
+    <description>The welcome light of day streams in through the mouth of this dank tunnel where it exits to a small, grassy valley.</description>
+    <description>The darkness of the tunnel is only slightly brightened here my a dim nighttime glow coming from the sky outside.  Further south, the rough stone floor slopes sharply downward, out of sight and closer to the stench of decay that pervades the gloom.</description>
+    <description>The darkness of the tunnel is only slightly brightened here my a dim nighttime glow coming from the sky outside.</description>
     <position x="-60" y="20" z="0" />
     <arc exit="south" move="south" destination="102" />
     <arc exit="out" move="out" destination="84" />
   </node>
   <node id="102" name="Promado Village, Tunnel Bend">
     <description>The tunnel levels here from its steep slope to the north and turns sharply to the east.  A pair of wagon tracks end abruptly at this point, their depth in the hard-packed earth suggesting the cart's burden was a very heavy one.</description>
+    <description>The tunnel levels here from its steep slope to the north and turns sharply to the east.</description>
     <position x="-60" y="40" z="0" />
     <arc exit="north" move="north" destination="101" />
     <arc exit="east" move="east" destination="103" />
   </node>
   <node id="103" name="Promado Village, Dead Pit">
     <description>The tunnel ends here at the brink of a vast pit, piled high with the bones of the dead.  A sea of ashen bones and skeletal remains gleams in the dim light, eyeless sockets turned up to the earthen roof as if searching for release.  From far beneath, perhaps at the bottom of the pit, comes a chorus of slithering, clicking noises, like a million wriggling centipedes nesting in the bones.</description>
+    <description>The tunnel ends here at the brink of a vast pit, piled high with the bones of the dead.</description>
     <position x="-40" y="40" z="0" />
     <arc exit="west" move="west" destination="102" />
   </node>
   <node id="104" name="Luscious Lavas" note="Luscious Lavas" color="#FF0000">
     <description>Large slabs of crudely cut obsidian lie stacked in careful piles along the walls of this oak-paneled workshop.  Small chips of flint-knapped stone litter the floor, ready to slice the feet of the unwary.  A sign on the far wall invites attention.</description>
+    <description>Large slabs of crudely cut obsidian lie stacked in careful piles along the walls of this oak-paneled workshop.  A sign on the far wall invites attention.</description>
     <position x="-60" y="-80" z="0" />
     <arc exit="out" move="out" destination="79" />
   </node>
   <node id="105" name="Promado Village, Northern Lane">
     <description>This path leads through a tangle of ruined and fallen huts, the only fragments and reminders of a once prosperous village.  The worn footpath, fresh tracks still evident upon it, curves from the south to the northeast, where it disappears from view behind a ramshackle wooden building.</description>
+    <description>This path leads through a tangle of ruined and fallen huts, the only fragments and reminders of a once prosperous village.</description>
     <position x="-100" y="-100" z="0" />
     <arc exit="northeast" move="northeast" destination="106" />
     <arc exit="southeast" move="southeast" destination="79" />
   </node>
   <node id="106" name="Promado Village, Refuse Heap">
     <description>The footpath ends behind a large wooden building, where a refuse heap piled high with obsidian chips, broken hammerstones and various other garbage sits in silence.  A long, ash-white bone juts from the bottom of the pile.</description>
+    <description>The footpath ends behind a large wooden building, where a refuse heap piled high with obsidian chips, broken hammerstones and various other garbage sits in silence.</description>
     <position x="-80" y="-120" z="0" />
     <arc exit="southwest" move="southwest" destination="105" />
   </node>
   <node id="107" name="Promado Village, Southern Lane">
     <description>This narrow, overgrown trail winds between rows of collapsed rubble mounds that might once have been homes.  The trail continues southwest, and rejoins the main boulevard to the north.</description>
+    <description>This narrow, overgrown trail winds between rows of collapsed rubble mounds that might once have been homes.</description>
     <position x="-80" y="-20" z="0" />
     <arc exit="north" move="north" destination="80" />
     <arc exit="southwest" move="southwest" destination="108" />
@@ -680,12 +757,14 @@
   </node>
   <node id="109" name="Promado Village, Southwestern Lane">
     <description>Unlike the utter desolation due east, this street shows slight signs of rebirth cropping from the earth.  Grass patches clump in front of the run-down houses.  Above the squat shacks lining the south side of the road appears a modest-sized knoll, crowned by a building seething with plant growth.</description>
+    <description>Grass patches clump in front of the run-down houses.  Above the squat shacks appears a knoll crowned by a building seething with plant growth.</description>
     <position x="-100" y="-20" z="0" />
     <arc exit="east" move="east" destination="107" />
     <arc exit="west" move="west" destination="110" />
   </node>
   <node id="110" name="Promado Village, Small Cottage">
     <description>In stark contrast to the rest of this section of the lane, one whitewashed cottage stands snug and whole in the midst of the squalor, proving that is indeed possible to rise against and to conquer adversity.  A deep-grained walnut door, graced with delicate unicorn and panther carvings, acts as entry into the abode.</description>
+    <description>In stark contrast to the rest of this section of the lane, one whitewashed cottage stands snug and whole in the midst of the squalor.  A deep-grained walnut door acts as entry into the abode.</description>
     <position x="-120" y="-20" z="0" />
     <arc exit="east" move="east" destination="109" />
     <arc exit="southwest" move="southwest" destination="111" />
@@ -698,19 +777,23 @@
     <arc exit="south" move="south" destination="112" />
   </node>
   <node id="112" name="Promado Village, Knoll">
-    <description>The dirt road ends at the base of the knoll, changing into a cobblestone path leading up the tiny hill to a thatched-roof house.  Vines cover the whitewashed structure in a tangle of shadows.  Stray wildflowers show pale on the darkened hillside.</description>
     <description>The dirt road ends at the base of a knoll, changing into a cobblestone path leading up the tiny hill to a thatched-roof house.  Vines choke the whitewashed structure in a tangle of green tendrils.  Stray wildflowers dot the hillside, struggling to create a spot of brightness amongst the remains of the rest of the village.</description>
+    <description>The dirt road ends at the base of a knoll, changing into a cobblestone path leading up the tiny hill to a thatched-roof house.</description>
+    <description>The dirt road ends at the base of the knoll, changing into a cobblestone path leading up the tiny hill to a thatched-roof house.  Vines cover the whitewashed structure in a tangle of shadows.  Stray wildflowers show pale on the darkened hillside.</description>
+    <description>The dirt road ends at the base of the knoll, changing into a cobblestone path leading up the tiny hill to a thatched-roof house.</description>
     <position x="-140" y="20" z="0" />
     <arc exit="north" move="north" destination="111" />
     <arc exit="climb" move="climb small knoll" destination="113" />
   </node>
   <node id="113" name="Promado Village, House on a Knoll">
     <description>Queued up like a line in a Carousel, the cobblestones sweep in a broad arc from the bottom to the top of the knoll, ending at a quaint house.  Several snakeweeds grow thickly around its perimeter, their oblong leaves jutting outwards as if to guide visitors away from the chestnut door leading inside.</description>
+    <description>Queued up like a line in a Carousel, the cobblestones sweep in a broad arc ending at a quaint house.  Several snakeweeds grow thickly around its perimeter.</description>
     <position x="-140" y="40" z="0" />
     <arc exit="go" move="go stone path" destination="112" />
   </node>
   <node id="114" name="Small Cottage, Living Area" note="Ivinnes" color="#00FF00">
     <description>Spotlessly clean, the small room contains only a table and four rickety chairs, a long cabinet with a washbasin perched on it, and a small fireplace built of rough-edged rock.  The walls have been carefully patched in several places, and covered with a fresh coat of whitewash.  Roughly sewn but bright and cheerful curtains hang at the window, and a teapot whistles softly from its hook in the hearth.</description>
+    <description>Spotlessly clean, the small room contains only a table and four rickety chairs, a long cabinet with a washbasin perched on it, and a small fireplace.</description>
     <position x="-120" y="-40" z="0" />
     <arc exit="north" move="north" destination="116" />
     <arc exit="east" move="east" destination="115" />
@@ -718,22 +801,27 @@
   </node>
   <node id="115" name="Small Cottage, Children's Bedroom">
     <description>Painted in a now faded light blue, the walls provide a sense of serenity, accentuated by the mural of Hodierna and Damaris on the eastern wall.  A small bed with a sleek panther carved on the deobar headboard sits beneath the window.</description>
+    <description>Painted in light blue, the walls provide a sense of serenity.  A small bed with a sleek panther carved on the deobar headboard sits beneath the window.</description>
     <position x="-100" y="-40" z="0" />
     <arc exit="west" move="west" destination="114" />
   </node>
   <node id="116" name="Small Cottage, Master Bedroom">
-    <description>A simple bed is pushed into the corner, covered with a faded but freshly washed comforter.  Curtains have been drawn across a large window on the northern wall, closing out the night and the devastation of the surrounding village.</description>
     <description>A simple bed is pushed into the corner, covered with a faded but freshly washed comforter.  A large window on the northern wall gives a view of the church steeple rising from behind a ridge of tumbled rock not far off.  From this distance, the devastation of the village is invisible, and one could believe it was still filled with friends and neighbors.</description>
+    <description>A simple bed is pushed into the corner.  A large window gives a view of the distant village.</description>
+    <description>A simple bed is pushed into the corner, covered with a faded but freshly washed comforter.  Curtains have been drawn across a large window on the northern wall, closing out the night and the devastation of the surrounding village.</description>
+    <description>A simple bed is pushed into the corner.  Curtains have been drawn across a large window, closing out the night.</description>
     <position x="-120" y="-60" z="0" />
     <arc exit="south" move="south" destination="114" />
   </node>
   <node id="117" name="Promado Village, Tiny House">
     <description>The ancient timbers of this one-room house creak and sway dangerously every time a wind blows through, as if it may collapse upon itself at any moment.  The furniture has disintegrated into wooden shards and scraps of cloth, and the old fireplace is home to a massive spiderweb from which tiny scarlet eyes gleam.</description>
+    <description>The ancient timbers of this one-room house creak and sway dangerously every time a wind blows through.  The furniture has disintegrated into wooden shards and scraps of cloth.</description>
     <position x="-100" y="20" z="0" />
     <arc exit="out" move="out" destination="108" />
   </node>
-  <node id="118" name="Promado Village, Church of Hodierna" note="Church|Hodierna">
+  <node id="118" name="Promado Village, Church of Hodierna" note="Church of Hodierna|Hodierna">
     <description>The church pews have been uprooted and stacked haphazardly against the walls, clearing the hardwood floor.  A sense of deep gloom pervades the otherwise undamaged building, a vaguely bittersweet fragrance hanging in the air.  A winding stair leads up to the bell tower, and a wooden door stands at the back of the room.</description>
+    <description>The church pews have been uprooted and stacked haphazardly against the walls, clearing the hardwood floor.  A winding stair leads up to the bell tower, and a wooden door stands at the back of the room.</description>
     <position x="-120" y="-80" z="0" />
     <arc exit="out" move="out" destination="78" />
     <arc exit="go" move="go wooden door" destination="119" />
@@ -741,11 +829,13 @@
   </node>
   <node id="119" name="Promado Village, Cleric's Office">
     <description>This lonely nook was once the village cleric's office, most of the furnishings now splintered to ruin.  A length of rope, frayed and swinging in a slight draft of air, hangs from its knot around a ceiling beam in the center of the room.  Beneath it, half-covered in dust, lies a tattered parchment note.</description>
+    <description>This lonely nook was once the village cleric's office, most of the furnishings now splintered to ruin.  A length of rope hangs from  a ceiling beam in the center of the room.  Beneath it lies a tattered parchment note.</description>
     <position x="-140" y="-100" z="0" />
     <arc exit="go" move="go wooden door" destination="118" />
   </node>
   <node id="120" name="Promado Village, Bell Tower">
     <description>A giant bronze bell, placed to be rung in times of celebration or danger, dominates the church belfry.  It has remained silent for so long that a family of fist-sized spiders has taken up residence inside, their webs stretching from the bell to the clapper.  The view from inside the belfry window shows the looming cliffs that tower over the village on all sides, and, not far to the north, the imposing black stone towers of Sorrow's Keep.</description>
+    <description>A giant bronze bell, placed to be rung in times of celebration or danger, dominates the church belfry.</description>
     <position x="-120" y="-100" z="0" />
     <arc exit="climb" move="climb winding stair" destination="118" />
   </node>
@@ -771,6 +861,7 @@
   </node>
   <node id="124" name="High Mountains, Obscured Trail" note="High Mountains">
     <description>Dense, flower-laden bushes obscure the trail to the north, and a wide, rocky path leads toward the southeast.   Several pockets in the face of the mountain look as if someone were recently mining in the area, leaving the path covered with various bits of metals.</description>
+    <description>Flower-laden bushes obscure the trail to the north, and a wide, rocky path leads toward the southeast.</description>
     <position x="300" y="-60" z="0" />
     <arc exit="east" move="east" destination="125" />
     <arc exit="southeast" move="southeast" destination="126" />
@@ -778,6 +869,7 @@
   </node>
   <node id="125" name="High Mountains, Waterfall" note="Waterfall">
     <description>Seeming to end here, the trail runs directly toward a waterfall that crashes down from a cave high up.  Plummeting down forcefully with gouts of water, the trail washes away as a river flows from the falls and off another cliff toward the east.</description>
+    <description>The trail runs directly toward a waterfall that crashes down from a cave high up.  Plummeting down forcefully with gouts of water, the trail washes away as a river flows from the falls and off another cliff toward the east.</description>
     <position x="340" y="-60" z="0" />
     <arc exit="southeast" move="southeast" destination="127" />
     <arc exit="southwest" move="southwest" destination="126" />
@@ -786,6 +878,7 @@
   </node>
   <node id="126" name="High Mountains, Rocky Path">
     <description>Unblemished by trees, the trail here gives a clear view of the sky.  Splitting off to the south, a steep slope leads down to a small gully while the main trail continues eastward.  The pathway hugs the side of the mountain tightly as it wends its way around, creating blind corners and steep drop offs.</description>
+    <description>Plummeting down forcefully with gouts of water, the trail washes away as a river flows from a waterfall and off another cliff toward the east.</description>
     <position x="320" y="-40" z="0" />
     <arc exit="northeast" move="northeast" destination="125" />
     <arc exit="east" move="east" destination="127" />
@@ -794,30 +887,35 @@
   </node>
   <node id="127" name="High Mountains, Rocky Path">
     <description>Making a sinuous bend through the mountains, the trail loops toward the south and into dense tree lines.  The hardwoods cling to the terrain, raising into a thick forest that extends down the side of the mountain.</description>
+    <description>Making a sinuous bend through the mountains, the trail loops toward the south and into dense tree lines.</description>
     <position x="360" y="-40" z="0" />
     <arc exit="west" move="west" destination="126" />
     <arc exit="northwest" move="northwest" destination="125" />
   </node>
   <node id="128" name="High Mountains, Behind the Waterfall" color="#993300">
     <description>Hidden behind crashing torrents of water, the cavern opens up into a large area filled with stalactites and stalagmites.  The echoing sound of dripping water is interrupted only by the occasional loud crash from the waterfall outside.  Uneven ground leads further back into the mountain.</description>
+    <description>Hidden behind crashing torrents of water, the cavern opens up into a large area filled with stalactites and stalagmites.</description>
     <position x="360" y="-80" z="0" />
     <arc exit="northeast" move="northeast" destination="129" />
     <arc exit="go" move="go waterfall" destination="125" />
   </node>
   <node id="129" name="High Mountains, Cavern" note="Cavern|mine" color="#993300">
     <description>Humid and stale air fills the cave along with the echos of dripping water and the distant sound of the roaring waterfall.  Broken ground falls away in several areas, while others seem impassable due to the stalagmites in the area.  A small flicker of light high up near the roof catches the eye, revealing a cliff with rudimentary footholds.</description>
+    <description>Broken ground falls away in several areas, while others seem impassable due to the stalagmites in the area.  A small flicker of light high up near the roof catches the eye, revealing a cliff with rudimentary footholds.</description>
     <position x="380" y="-100" z="0" />
     <arc exit="southwest" move="southwest" destination="128" />
     <arc exit="climb" move="climb cliff" destination="130" />
   </node>
   <node id="130" name="High Mountains, Sunfall Hub">
     <description>Breaking open from the dank cavern below is a wide meadow neatly tucked in a valley between several surrounding mountains.  Visible from this perch, a collection of huts and tents and rising smoke reveal signs of life from somewhere betwixt the structures.  In the distance, several figures wander in and out of the circle of the buildings.</description>
+    <description>A wide meadow opens here, neatly tucked in a valley between several surrounding mountains.  Visible from this perch, a collection of huts and tents and several figures that wander in and out of the circle of the buildings.</description>
     <position x="400" y="-120" z="0" />
     <arc exit="southeast" move="southeast" destination="131" />
     <arc exit="climb" move="climb cliff" destination="129" />
   </node>
   <node id="131" name="Sunfall Hub, Claw District" note="Claw District">
     <description>Three large huts, constructed of stretched hide and wood encircle the area.  Each marked with its own symbol, the huts appear to house both resident and visiting members of the Claws.  Prydaen filter in and out each hut a few at a time, occasionally accompanied by an Elder.</description>
+    <description>Three large huts are erected in the area, and Prydaen filter in and out of them, occasionally accompanied by an Elder.</description>
     <position x="420" y="-100" z="0" />
     <arc exit="east" move="east" destination="132" />
     <arc exit="southeast" move="southeast" destination="135" />
@@ -826,6 +924,7 @@
   </node>
   <node id="132" name="Sunfall Hub, Warrior District" note="Warrior District">
     <description>Corralled in the area, several warriors spar, hone their weapons, or watch the others with avid interest.  The younger Prydaen, oblivious to the danger of running through the vicinity, chase after small creatures in the area, squealing with glee when successful, and hissing with frustration when defeated.</description>
+    <description>Various warriors spar in the area or busily hone their weapons.  Younger Prydaen chase after small creatures in the area, oblivious to the potential danger.</description>
     <position x="460" y="-100" z="0" />
     <arc exit="south" move="south" destination="133" />
     <arc exit="southwest" move="southwest" destination="135" />
@@ -833,6 +932,7 @@
   </node>
   <node id="133" name="Sunfall Hub, Work Area" note="Work Area">
     <description>Like a shell-laden beach, the ground here is laden with a myriad of items from bones, broken beads, twine, and metal shavings.  A large anvil rests next to a large forge that appears to double as a kiln.  Several Prydaen nearby appear to be stripping carcasses or working away at various crafts.</description>
+    <description>Like a shell-laden beach, the ground here is laden with a myriad of items.  A large anvil rests next to a large forge that appears to double as a kiln.</description>
     <position x="460" y="-60" z="0" />
     <arc exit="north" move="north" destination="132" />
     <arc exit="west" move="west" destination="134" />
@@ -840,6 +940,7 @@
   </node>
   <node id="134" name="Sunfall Hub, Residential Area" note="Residential Area" color="#00FFFF">
     <description>Several hide tents and huts with thick straw roofs crop up across the grassy area.  Dozing Prydaen pay little mind to the creatures that wander through, leaving the prowling teenagers to dispatch them.</description>
+    <description>Several hide tents and huts with thick straw roofs crop up across the grassy area.</description>
     <position x="420" y="-60" z="0" />
     <arc exit="north" move="north" destination="131" />
     <arc exit="northeast" move="northeast" destination="135" />
@@ -849,6 +950,7 @@
   </node>
   <node id="135" name="Sunfall Hub, Firepit Circle" note="Sunfall Hub|Firepit Circle">
     <description>At the dead center of the Hub, an expansive bonfire blazes, tended to by the resident Prydaen.  Several groups gather in the area to exchange trade, words, or to simply stop and share a meal.  Nearby, a small group of well-protected kits take instruction from two Claw members while nearby warriors keep a watchful eye on the area.</description>
+    <description>An expansive bonfire takes the center of the Hub and several groups of Prydaen gather in the area.  A group of kits take instruction nearby from two Claw members and nearby warriors keep a watchful eye on the area.</description>
     <position x="440" y="-80" z="0" />
     <arc exit="northeast" move="northeast" destination="132" />
     <arc exit="southeast" move="southeast" destination="133" />
@@ -857,11 +959,13 @@
   </node>
   <node id="136" name="Sunfall Hub, Inside A Hide Tent" note="Hide Tent">
     <description>Built upon sturdy sets of stilts, several hammocks with thick pallets are suspended, waiting to hold the weary.  A simple dirt floor is covered by thin hides, with a small rock encircled firepit set into the center of the room.  A hide flap provides both entrance and exit to the room.</description>
+    <description>Several hammocks with thick pallets are suspended on stilts and a simple dirt floor covered with thin hides is broken only by a firepit in the center of the room.  A hide flap provides an exit.</description>
     <position x="400" y="-60" z="0" />
     <arc exit="go" move="go hide flap" destination="134" />
   </node>
   <node id="137" name="High Mountains, Sloped Path">
     <description>Sprays of rock occasionally fall from up above, sending the gravel on the ground tumbling further down and into the undergrowth beneath the trees that somehow cling to life here.  The trail veers toward both the east and the west from here, forking around a fairly sizable boulder.</description>
+    <description>The trail veers toward both the east and the west from here, forking around a fairly sizable boulder.</description>
     <position x="320" y="-20" z="0" />
     <arc exit="southeast" move="southeast" destination="138" />
     <arc exit="southwest" move="southwest" destination="139" />
@@ -869,20 +973,52 @@
   </node>
   <node id="138" name="High Mountains, Sloped Path">
     <description>Looping to the north and the west, the trail here opens widely, providing a breathtaking view of the mountains in the distance.  A ramshackle fence set up along the edge of the path seems to have been set up to prevent accidental deaths.</description>
+    <description>Looping to the north and the west, the trail here opens widely.  A fence set up along the edge of the path seems to have been set up to prevent accidental deaths.</description>
     <position x="340" y="0" z="0" />
     <arc exit="west" move="west" destination="139" />
     <arc exit="northwest" move="northwest" destination="137" />
   </node>
   <node id="139" name="High Mountains, Sloped Path">
     <description>Circling around the boulder, the rocky path is littered with dried out and broken logs.  A series of small rocks line the path, and an oddly stacked bunch of rocks rests on the north side of the trail, as if serving as a trail marker.</description>
+    <description>A series of small rocks line the path, and an oddly stacked bunch of rocks rests on the north side of the trail, as if serving as a trail marker.</description>
     <position x="300" y="0" z="0" />
     <arc exit="northeast" move="northeast" destination="137" />
     <arc exit="east" move="east" destination="138" />
   </node>
-  <node id="140" name="Sunfall Hub, Inside A Lean-To" note="lean-to" color="#FF0000">
+  <node id="140" name="Sunfall Hub, Inside A Lean-To" note="Lean-To" color="#FF0000">
     <description>The walls of the lean-to are comprised of closely stacked branches and logs, and stuffed with bits of bark and foliage to block the wind from sneaking through the cracks.  A flat wooden surface resting against the back wall holds a small assortment of weapons, while a bench displays other items for sale.  A leather hide curtains the exit.</description>
+    <description>The walls of the lean-to are comprised of stacked branches and logs.  A wooden surface holds an assortment of weapons, while a bench displays other items for sale.  A leather hide curtains the exit.</description>
     <position x="400" y="-80" z="0" />
     <arc exit="go" move="go leather hide" destination="134" />
+  </node>
+  <node id="141" name="Praxium, Foyer">
+    <description>The grand entrance to the Praxium is adorned with a massive banner that proclaims "Unity and Excellence in Combat".  Smooth, polished stone floors echo with footsteps, their faint sound amplified by the vaulted ceiling above.  On one wall, a masterfully carved relief depicts a detailed series of figures standing together in triumph, each marked by a guild crest: a Human Cleric, an Elven Barbarian, a S'Kra Mur Bard, a Human Paladin, and an Elothean Thief.  Directly opposite, another relief showcases an Elven Bardess, a Prydaen Thief, a Human Warrior Mage, a Rakash Paladin, and a Halfling Thief, each rendered in exquisite detail as if caught mid-action.  A single, wide archway beckons visitors deeper into the Praxium.</description>
+    <description>The grand entrance is adorned with a massive banner.  Polished stone floors echo with footsteps that are amplified by the vaulted ceiling above.  Reliefs carved from marble and alabaster that are placed opposite one another depict several crested figures, and a wide archway leads further into the Praxium.</description>
+    <position x="-40" y="-120" z="0" />
+    <arc exit="go" move="go iron gate" destination="79" />
+    <arc exit="go" move="go wide archway" destination="142" />
+  </node>
+  <node id="142" name="Praxium, Gathering Hall" note="Praxium">
+    <description>The heart of camaraderie within the Praxium, this expansive hall invites students and mentors to share meals, stories, and insights.  A massive stone table commands the center of the room and is surrounded by an assortment of finely crafted wooden chairs.  Above, a pair of wrought-iron chandeliers casts warm light that illuminates the space.  Centered upon each of the four walls is a banner bearing the academy's emblem.  Their colors, vibrant yet dignified, add a touch of refinement to the space.  Heavy stone doors set on opposite walls from one another lead further in.  The archway to the foyer remains ever open, providing a clear path back to the academy's welcoming entrance.</description>
+    <description>The expansive hall provides a gathering place to share meals, stories and insights beneath a pair of wrought-iron chandeliers.  A stone table in the room's center is surrounded by wooden chairs, and vibrant banners adorn the walls.  A pair of heavy stone doors lead to other areas of the academy while an archway to the foyer remains open.</description>
+    <position x="-20" y="-100" z="0" />
+    <arc exit="go" move="go wide archway" destination="141" />
+    <arc exit="go" move="go western door" destination="143" />
+    <arc exit="go" move="go eastern door" destination="144" />
+  </node>
+  <node id="143" name="Praxium, Sparring Courtyard">
+    <description>The open-air courtyard of the Praxium hums with the energy of countless bouts fought in the pursuit of mastery and discipline.  At its center stands a raised sparring platform, its surface reinforced to endure even the most intense clashes.  High stone walls encircling the courtyard ensure privacy and focus, their surfaces adorned with banners bearing the academy's crest.  Tall, weathered arches cut into the walls offer glimpses of the surrounding landscape while the sky above remains fully open, embracing the sparring ground in light and shadow.  Above the stone doorway leading back to the Gathering Hall hangs another large banner, its vibrant fabric emblazoned with embossed lettering that captures the eye.  Around the perimeter, weapon racks and training dummies stand ready, ever at the service of determined combatants.</description>
+    <description>The open-air courtyard is encircled by high stone walls with crested banners, and a raised sparring platform stands in the center.  The vibrant colors of another banner above the stone doorway leading inside draw the eye from weapon racks and training dummies placed around the perimeter.</description>
+    <description>In the open-air courtyard of the Praxium, the raised sparring platform remains a commanding presence at the center, its surface dimly illuminated by lanterns mounted along the high stone walls.  The banners bearing the academy's crest hang still, their vibrant gold and navy hues muted by the shadows.  The tall arches framing the courtyard become stark outlines against the darker sky above, hinting at the world beyond.  Above the stone doorway leading back to the Gathering Hall, another large banner sways faintly, its embossed lettering catching the occasional flicker of light.  The weapon racks and training dummies around the perimeter are cast in deep shadow, their forms resolute and waiting for the next clash of combat.</description>
+    <description>Lanterns on the bannered stone walls dimly illuminate the raised sparring platform at the center of the open-air courtyard.  Tall arches separate the darker world beyond.  Another banner above the stone door leading inside draws the eye from weapon racks and training dummies lining the perimeter.</description>
+    <position x="-40" y="-100" z="0" />
+    <arc exit="go" move="go stone door" destination="142" />
+  </node>
+  <node id="144" name="Praxium, Observation Chamber">
+    <description>This room is built for spectators to immerse themselves in the action of the sparring courtyard.  Theater-style seating rises from the middle of the room, each row slightly elevated to provide an unobstructed view of the central enchanted mirror.  The mirror stands motionless, presenting a clear, detailed image of the goings on within the nearby courtyard.  The walls are padded with thick, durable fabric to muffle the potential cheers and exclamations of enthusiastic onlookers, ensuring the chamber remains comfortable for all.  A sturdy stone door to the Gathering Hall provides the only entrance and exit to this hub of excitement and engagement.</description>
+    <description>Raised seating provides an unobstructed view of the enchanted mirror at the heart of room.  It provides a detailed image of the nearby courtyard.  Fabric pads the walls to muffle the cheers and exclamations of onlookers.  A stone door leads back to the Gathering Hall.</description>
+    <position x="0" y="-100" z="0" />
+    <arc exit="go" move="go stone door" destination="142" />
   </node>
   <label text="Rock Trolls">
     <position x="230" y="-470" z="0" />
@@ -893,35 +1029,32 @@
   <label text="Lairocott Brach">
     <position x="510" y="-500" z="0" />
   </label>
-  <label text="Slai Scouts, Slai Screamers">
+  <label text="S'lai Scouts, S'lai Screamers">
     <position x="450" y="-610" z="0" />
   </label>
   <label text="Wir Dinego">
     <position x="480" y="-590" z="0" />
   </label>
-  <label text="Wir Dingo">
-    <position x="80" y="-30" z="0" />
+  <label text="S'lai Scouts">
+    <position x="150" y="-242" z="0" />
   </label>
-  <label text="Slai Scouts">
-    <position x="170" y="-180" z="0" />
+  <label text="S'lai Scouts">
+    <position x="2" y="-222" z="0" />
   </label>
-  <label text="Slai Scouts">
-    <position x="10" y="-210" z="0" />
+  <label text="S'lai Scouts">
+    <position x="168" y="-50" z="0" />
   </label>
-  <label text="Slai Scouts">
-    <position x="170" y="-40" z="0" />
-  </label>
-  <label text="Wir Dingo">
-    <position x="-30" y="10" z="0" />
+  <label text="Wir Dinego">
+    <position x="-11" y="5" z="0" />
   </label>
   <label text="NTR">
     <position x="67" y="67" z="0" />
   </label>
   <label text="Promado Village">
-    <position x="-50" y="-80" z="0" />
+    <position x="-50" y="-82" z="0" />
   </label>
   <label text="Abandoned Clan">
-    <position x="290" y="-210" z="0" />
+    <position x="274" y="-216" z="0" />
   </label>
   <label text="malodorous buccas">
     <position x="273" y="6" z="0" />
@@ -930,9 +1063,12 @@
     <position x="277" y="20" z="0" />
   </label>
   <label text="Sunfall Hub">
-    <position x="410" y="-126" z="0" />
+    <position x="400" y="-138" z="0" />
   </label>
   <label text="copperhead vipers">
-    <position x="386" y="-55" z="0" />
+    <position x="368" y="-54" z="0" />
+  </label>
+  <label text="Praxium">
+    <position x="-29" y="-123" z="0" />
   </label>
 </zone>
