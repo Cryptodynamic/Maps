@@ -3391,7 +3391,7 @@
     <position x="40" y="1730" z="0" />
     <arc exit="east" move="east" destination="474" />
     <arc exit="west" move="west" destination="476" />
-	<arc exit="go" move="go marble door" destination="861" />
+  <arc exit="go" move="go marble door" destination="861" />
   </node>
   <node id="476" name="Limestone Valley, Northern Wall">
     <description>The skeleton of a mid-size feline lies here in disarray and several large chunks of limestone are shattered beneath the remains.  It appears the edge of the cliff gave way while the luckless animal investigated the valley from above.  A far quicker death than the slowly suffocating fumes of the pit.</description>
@@ -4312,6 +4312,7 @@
     <position x="660" y="1930" z="0" />
     <arc exit="east" move="east" destination="621" />
     <arc exit="west" move="west" destination="619" />
+  <arc exit="go" move="go gravel drive" destination="868" />
   </node>
   <node id="621" name="Arthe Dale, Gooseberry Road" color="#00FFFF">
     <description>Pale white jasmine blossoms dangle amidst deep green waxy leaves on a whitewashed trellis, their fragrant nectar attracting a flock of brightly colored hummingbirds.  A low-pitched drone fills the air as chubby bumblebees float amidst the blossoms, their legs covered with a profusion of yellow pollen.  A local homeowner has taken advantage of the nearby flowers, erecting a beehive on the lawn to produce his winter's supply of honey.</description>
@@ -5734,11 +5735,11 @@
     <position x="20" y="1670" z="0" />
     <arc exit="north" move="north" destination="864" />
     <arc exit="southwest" move="southwest" destination="867" />
-	 <arc exit="southeast" move="southeast" destination="862" />
+    <arc exit="southeast" move="southeast" destination="862" />
   </node>
   <node id="864" name="Journalai Hills, Pine Forest">
     <description>The night's soft light catches the jagged edges of grey stone outcroppings, throwing long, skeletal shadows across the muffled forest floor.  The daytime birds have fallen silent, replaced by the eerie, rhythmic sighing of the wind as it brushes through the dark, towering crowns overhead.  A chill dampness settles over the twisting slopes, making the exposed roots slick and the path ahead dangerously obscure to the unwary traveler.</description>
-	<description>Mottled beams of gold pierce the dense canopy, illuminating columns of dancing dust motes above the needle-strewn ground.  The crisp mountain air carries the chatter of unseen canopy birds and the sharp, hot scent of baking pine sap from the older trees.  Shadows stretch and pool between the rolling knolls, masking the true depth of the treacherous, root-choked paths that wind through the hills.</description>
+    <description>Mottled beams of gold pierce the dense canopy, illuminating columns of dancing dust motes above the needle-strewn ground.  The crisp mountain air carries the chatter of unseen canopy birds and the sharp, hot scent of baking pine sap from the older trees.  Shadows stretch and pool between the rolling knolls, masking the true depth of the treacherous, root-choked paths that wind through the hills.</description>
     <position x="20" y="1650" z="0" />
     <arc exit="south" move="south" destination="863" />
     <arc exit="west" move="west" destination="865" />
@@ -5757,10 +5758,57 @@
   </node>
   <node id="867" name="Journalai Hills, Forest Pond">
     <description>At the edge of the meadow, a small pond glitters in the night's flickering light that filters through the leafy canopy of the surrounding trees.  Every so often, ripples form in the otherwise placid water, as tiny silvery fish break the surface.</description>
-	<description>At the edge of the meadow, a small pond glitters in the wan sunlight that filters through the leafy canopy of the surrounding trees.  Every so often, ripples form in the otherwise placid water, as tiny silvery fish break the surface.</description>
+    <description>At the edge of the meadow, a small pond glitters in the wan sunlight that filters through the leafy canopy of the surrounding trees.  Every so often, ripples form in the otherwise placid water, as tiny silvery fish break the surface.</description>
     <position x="0" y="1690" z="0" />
     <arc exit="northeast" move="northeast" destination="863" />
     <arc exit="northwest" move="northwest" destination="866" />
+  </node>
+  <node id="868" name="Berrywick Estate, Grounds" note="berrywick estate">
+    <description>A broad drive of pale stone curves through charmingly manicured grounds, bordered by clipped grasses, flowering shrubs, and dense beds of colorful blooms.  Low stone walls divide stretches of carefully tended greenery, while a massive old tree spreads its gnarled branches near the grand riverstone manor.  An ornate swing hangs from one broad limb, overlooking the drive leading to the front door.</description>
+    <position x="660" y="1910" z="0" />
+    <arc exit="go" move="go gravel drive" destination="620" />
+    <arc exit="go" move="go stone path" destination="869" />
+    <arc exit="go" move="go well-lit entrance" destination="870" />
+  </node>
+  <node id="869" name="Berrywick Estate, Meadowview Terrace">
+    <description>A broad stone terrace extends along the estate, bordered by low balustrades and oversized planters overflowing with greenery and flowers.  An ornate fountain occupies the center of the paved space, surrounded by winding arrangements of benches, potted shrubs, and small flowering trees.  To one side, an enormous sprawling oak supports a cushioned bench swing.</description>
+    <position x="650" y="1910" z="0" />
+    <arc exit="go" move="go stone path" destination="868" />
+  </node>
+  <node id="870" name="Berrywick Estate, Grand Entry">
+    <description>A soaring ceiling crowns the spacious entry, where pale stone walls rise above polished floors and broad archways lead deeper into the manor house.  Tall windows occupy much of the outer wall, while clusters of ornate lanterns hang from long chains overhead.</description>
+    <position x="660" y="1900" z="0" />
+    <arc exit="east" move="east" destination="871" />
+    <arc exit="out" move="out" destination="868" />
+    <arc exit="go" move="go glass doors" destination="872" />
+    <arc exit="go" move="go gilded entry" destination="873" />
+  </node>
+  <node id="871" name="Berrywick Estate, Main Hallway">
+    <description>A broad hallway extends between rows of tall windows on one side and gleaming wainscoting on the other.  Polished floors run beneath a high ceiling crossed by evenly spaced beams, while occasional archways interrupt the paneled wall to provide access to adjoining rooms.</description>
+    <position x="670" y="1900" z="0" />
+    <arc exit="west" move="west" destination="870" />
+    <arc exit="go" move="go rounded arch" destination="874" />
+    <arc exit="go" move="go side entry" destination="875" />
+  </node>
+  <node id="872" name="Berrywick Estate, Petalspring Conservatory" color="#00FF00">
+    <description>Tall glass walls rise to meet a vaulted glass ceiling above a polished cobblestone floor.  Towering palms, broad-leafed plants, flowering vines, and dense beds of greenery surround the space, with carved stone benches threading between oversized planters.</description>
+    <position x="650" y="1900" z="0" />
+    <arc exit="go" move="go glass doors" destination="870" />
+  </node>
+  <node id="873" name="Berrywick Estate, Briarwood Ballroom" color="#00FF00">
+    <description>A vast polished floor stretches beneath a high, ornamented ceiling edged with intricate molding.  Tall arched windows alternate with slender columns along the walls, while elaborate chandeliers hang overhead.  Elaborate trim accents broad archways and carved panels, with a raised musicians' gallery overlooking one end of the ballroom.</description>
+    <position x="660" y="1890" z="0" />
+    <arc exit="go" move="go gilded entry" destination="870" />
+  </node>
+  <node id="874" name="Berrywick Estate, Blackvine Study" color="#00FF00">
+    <description>Floor-to-ceiling bookcases cover the dark-paneled walls of the spacious study, their shelves packed with books, scrolls, and bound volumes.  Heavy curtains cover tall windows, while low-hanging lanterns illuminate broad tables and clusters of deep-cushioned chairs.</description>
+    <position x="670" y="1890" z="0" />
+    <arc exit="go" move="go rounded arch" destination="871" />
+  </node>
+  <node id="875" name="Berrywick Estate, Bramblecross Barn" color="#00FF00">
+    <description>Smooth riverstone walls enclose an elegantly finished barn with a broad cobblestone dance floor and exposed beams spanning the lofty ceiling.  A myriad of gaethzen lanterns hang among the open timbers, while polished wooden doors and neatly finished archways break up the stone walls.</description>
+    <position x="680" y="1900" z="0" />
+    <arc exit="go" move="go side entry" destination="871" />
   </node>
   <label text="Warrior Mage">
     <position x="460" y="2440" z="0" />
@@ -5959,5 +6007,11 @@
   </label>
   <label text="Emerald Claw Trolls">
     <position x="0" y="1620" z="0" />
+  </label>
+  <label text="Berrywick Estate">
+    <position x="550" y="1880" z="0" />
+  </label>
+  <label text="(Meeting Rooms)">
+    <position x="550" y="1890" z="0" />
   </label>
 </zone>
