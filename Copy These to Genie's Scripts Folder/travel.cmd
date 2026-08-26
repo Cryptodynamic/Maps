@@ -7,8 +7,8 @@
 # Inspired by the OG Wizard Travel Script - But made 1000x better w/ the power of GENIE
 # Originally written by Achilles - Revitalized and robustified by Shroom
 #
-# Updated: 8/8/26
-var version 5.6
+# Updated: 8/20/26
+var version 5.6.2
 #
 # MAIN FEATURES:
 # - START SCRIPT FROM ANYWHERE IN GAME - TRAVEL TO ANY MAJOR LOCATION
@@ -161,7 +161,9 @@ if ("$charactername") == ("$char10") then var shardcitizen no
 #### DONT TOUCH ANYTHING BELOW THIS LINE
 ###########################################
 ###########################################
-# CHANGELOG - Latest Update: 8/8/26
+# CHANGELOG - Latest Update: 8/20/26
+#
+# - Fixed bug in Plat Portal travel (case sensitivity)
 #
 # - Fixed bugs in Traveling Segoltha River NORTH and SOUTH, in case mapper glitches out showing wrong roomid
 # - Fixed multiple bugs with Ferry Logic 
@@ -5408,7 +5410,7 @@ PORTAL_TIME:
 CROSS_PORTAL:
      if ("$zoneid" == "1") then
           {
-               if matchre("%destination", "cross?i?n?g?s?") then return
+               if matchre("%destination", "(?i)cross?i?n?g?s?") then return
                if matchre("%destination", "(?i)\b(knif?e?c?l?a?n?|tige?r?c?l?a?n?|dirg?e?|arth?e?d?a?l?e?|kaer?n?a?|ilay?a?t?a?i?p?|illa?y?a?t?a?i?p?a?|taipa|leth?d?e?r?i?e?l?|acen?a?m?a?c?r?a?|vipe?r?s?|guar?d?i?a?n?s?|leuc?r?o?s?|malod?o?r?o?u?s?|bucc?a?|dokt?|sorr?o?w?s?|misens?e?o?r?|beis?s?w?u?r?m?s?|ston?e?c?l?a?n?|bone?w?o?l?f?|germ?i?s?h?d?i?n?|alfr?e?n?s?|cara?v?a?n?s?a?r?y?)\b") then return
                pause 0.01
                if ($roomid != 484) then gosub AUTOMOVE 484
@@ -5425,13 +5427,13 @@ CROSS_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "aesr?y?") then goto ARRIVED
+               if matchre("%destination", "(?i)aesr?y?") then goto ARRIVED
           }
 ## AESRY PORTAL ENTRANCE Zone 99 Room 115
 AESRY_PORTAL:
      if ("$zoneid" == "99") then
           {
-               if matchre("%destination", "aesr?y?") then return
+               if matchre("%destination", "(?i)aesr?y?") then return
                pause 0.3
                if ($roomid != 115) then gosub AUTOMOVE 115
                if ($roomid != 115) then goto AESRY_PORTAL
@@ -5447,7 +5449,7 @@ AESRY_PORTAL:
                pause 0.2
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "shard?") then goto ARRIVED
+               if matchre("%destination", "(?i)shard?") then goto ARRIVED
                if matchre("%destination", "(?i)\b(grani?t?e?|garg?o?y?l?e?|spir?e?|horse?c?l?a?n?|fayr?i?n?s?|steel?c?l?a?w?|cori?k?s?|ada?n?f?|ylo?n?o?|wyve?r?n?|rave?n?s?|fan?g?|cov?e?)\b") then
                     {
                          gosub clear
@@ -5473,13 +5475,13 @@ SHARD_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(mriss?|merk?r?e?s?h?)") then goto ARRIVED
+               if matchre("%destination", "(?i)\b(mriss?|merk?r?e?s?h?)") then goto ARRIVED
           }
 ## MERKRESH PORTAL ENTRANCE Zone 107 Room 273
 MERKRESH_PORTAL:
      if ("$zoneid" == "107") then
           {
-               if matchre("%destination", "(mriss?|merk?r?e?s?h?)") then return
+               if matchre("%destination", "(?i)(mriss?|merk?r?e?s?h?)") then return
                pause 0.3
                if ($roomid != 273) then gosub AUTOMOVE 273
                if ($roomid != 273) then goto MERKRESH_PORTAL
@@ -5495,7 +5497,7 @@ MERKRESH_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(rive?r?h?a?v?e?n?|have?n?|rossm?a?n?)") then goto ARRIVED
+               if matchre("%destination", "(?i)\b(rive?r?h?a?v?e?n?|have?n?|rossm?a?n?)") then goto ARRIVED
           }
 ## RIVERHAVEN PORTAL ENTRANCE Zone 30 Room 331
 RIVERHAVEN_PORTAL:
@@ -5517,13 +5519,13 @@ RIVERHAVEN_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(ratha?)") then goto ARRIVED
+               if matchre("%destination", "(?i)\b(ratha?)") then goto ARRIVED
           }
 ## RATHA PORTAL ENTRANCE Zone 90 Room 468
 RATHA_PORTAL:
      if ("$zoneid" == "90") then
           {
-               if matchre("%destination", "(ratha?)") then return
+               if matchre("%destination", "(?i)(ratha?)") then return
                pause 0.3
                if ($roomid != 468) then gosub AUTOMOVE 468
                if ($roomid != 468) then goto RATHA_PORTAL
@@ -5539,7 +5541,7 @@ RATHA_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(el'?b?a?i?n?s?|elbai?n?s?)") then goto ARRIVED
+               if matchre("%destination", "(?i)(el'?b?a?i?n?s?|elbai?n?s?)") then goto ARRIVED
                if matchre("%destination", "(?i)\b(ther?e?n?b?o?r?o?u?g?h?|lang?e?n?f?i?r?t?h?|el'?b?a?i?n?s?|elb?a?i?n?s?|raka?s?h?|thro?n?e?|forn?s?t?e?d?|hvar?a?l?)\b") then
                     {
                          gosub clear
@@ -5565,13 +5567,13 @@ ELBAINS_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(mus?p?a?r?i?)") then goto ARRIVED
+               if matchre("%destination", "(?i)\b(mus?p?a?r?i?)") then goto ARRIVED
           }
 ## MUSPARI PORTAL ENTRANCE Zone 47 Room 97
 MUSPARI_PORTAL:
      if ("$zoneid" == "47") then
           {
-               if matchre("%destination", "(mus?p?a?r?i?)") then return
+               if matchre("%destination", "(?i)(mus?p?a?r?i?)") then return
                if ($roomid != 97) then gosub AUTOMOVE 97
                if ($roomid != 97) then goto MUSPARI_PORTAL
                gosub EKKO
@@ -5586,7 +5588,7 @@ MUSPARI_PORTAL:
                pause 0.4
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "(hiba?r?n?h?v?i?d?a?r?)") then goto ARRIVED
+               if matchre("%destination", "(?i)(hiba?r?n?h?v?i?d?a?r?)") then goto ARRIVED
                if matchre("%destination", "(?i)\b(aing?h?a?z?a?l?|rave?n?s?|hib?a?r?n?h?v?i?d?a?r?|out?e?r?|inne?r?|boar?c?l?a?n?)\b") then
                     {
                          gosub clear
@@ -5617,7 +5619,7 @@ HIB_PORTAL:
                pause 0.1
                if ($roomid == 0) then gosub RANDOMMOVE
                if ($roomid == 0) then gosub RANDOMMOVE
-               if matchre("%destination", "cross?i?n?g?s?") then goto ARRIVED
+               if matchre("%destination", "(?i)cross?i?n?g?s?") then goto ARRIVED
                if matchre("%destination", "(?i)\b(knif?e?c?l?a?n?|tige?r?c?l?a?n?|dirg?e?|arth?e?d?a?l?e?|kaer?n?a?|ilay?a?t?a?i?p?|illa?y?a?t?a?i?p?a?|taipa|leth?d?e?r?i?e?l?|acen?a?m?a?c?r?a?|vipe?r?s?|guar?d?i?a?n?s?|leuc?r?o?s?|malod?o?r?o?u?s?|bucc?a?|dokt?|sorr?o?w?s?|misens?e?o?r?|beis?s?w?u?r?m?s?|ston?e?c?l?a?n?|bone?w?o?l?f?|germ?i?s?h?d?i?n?|alfr?e?n?s?|cara?v?a?n?s?a?r?y?)\b") then
                     {
                          gosub clear
