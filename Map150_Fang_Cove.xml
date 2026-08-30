@@ -609,8 +609,8 @@
     <arc exit="go" move="go brown wagon" destination="247" />
     <arc exit="go" move="go maple caravan" destination="262" />
     <arc exit="go" move="go purpleheart wagon" destination="264" />
-	<arc exit="go" move="go canvas tent" destination="273" />
-	<arc exit="go" move="go green caravan" destination="274" />
+    <arc exit="go" move="go canvas tent" destination="273" />
+    <arc exit="go" move="go green caravan" destination="274" />
   </node>
   <node id="89" name="Fang Cove, Fate's Fortune Lane">
     <description>The swirling ocean breeze stirs the sand that finds its way onto everything, creating intricate patterns across the surfaces of the cobblestones that form the lane.  Long and low wooden planter boxes are centered in the gap between the lane and the wall on the northern side, an effort to fill the space in the absence of the growing structures across the way.  Some of the gardens are covered to create makeshift tables to serve the workers meals at different times of the day.</description>
