@@ -609,6 +609,8 @@
     <arc exit="go" move="go brown wagon" destination="247" />
     <arc exit="go" move="go maple caravan" destination="262" />
     <arc exit="go" move="go purpleheart wagon" destination="264" />
+	<arc exit="go" move="go canvas tent" destination="273" />
+	<arc exit="go" move="go green caravan" destination="274" />
   </node>
   <node id="89" name="Fang Cove, Fate's Fortune Lane">
     <description>The swirling ocean breeze stirs the sand that finds its way onto everything, creating intricate patterns across the surfaces of the cobblestones that form the lane.  Long and low wooden planter boxes are centered in the gap between the lane and the wall on the northern side, an effort to fill the space in the absence of the growing structures across the way.  Some of the gardens are covered to create makeshift tables to serve the workers meals at different times of the day.</description>
@@ -1811,7 +1813,7 @@
     <description>The cave mouth narrows slightly, its low ceiling casting heavy shadows across the uneven floor visible from the entrance.  At the farthest point from the opening, small pairs of yellow eyes blink intermittently, appearing and vanishing within the recesses of the stone.</description>
     <position x="547" y="300" z="0" />
     <arc exit="east" move="east" destination="271" />
-    <arc exit="southeast" move="southeast" destination="269" />
+    <arc exit="southeast" move="southeast" destination="272" />
     <arc exit="south" move="south" destination="269" />
   </node>
   <node id="271" name="Fang Cove, Verdant Outcrop">
@@ -1827,6 +1829,16 @@
     <arc exit="north" move="north" destination="271" />
     <arc exit="west" move="west" destination="269" />
     <arc exit="northwest" move="northwest" destination="270" />
+  </node>
+  <node id="273" name="Lazy Lawns" note="lazy lawns" color="#FF0000">
+    <description>Moldy straw litters the ground, tinging the air with a scent reminiscent of dank jail cells and unclean stables.  Clearly the proprietor cares little for ambiance, or even basic hygiene, because the piles of junk strewn about attract flies and rodents.  Several items for sale occupy the scratched table, broken ladder, slanted stand, and unstable shelf huddled in the corner.</description>
+    <position x="143" y="320" z="0" />
+    <arc exit="go" move="go tent flap" destination="88" />
+  </node>
+  <node id="274" name="Feral Foliage, Sales Floor" note="feral foliage" color="#FF0000">
+    <description>Sunlight streams through the tall arched windows, lighting the thick blanket of ivy vines climbing the walls towards the high ceiling.  Lush topiaries in the process of being transformed into varying animal shapes rest in the back half of the room, forming a semi-circle around a tree-shaped plant stand.  Near the front, a wooden bench crafted out of an oak door sits next to a red oak credenza carved with small knolls.  A long table resting on the backs of some miniature homes sits on the opposite side of the room.</description>
+    <position x="210" y="320" z="0" />
+    <arc exit="go" move="go ivy-covered door" destination="88" />
   </node>
   <label text="quartz">
     <position x="505" y="40" z="0" />
