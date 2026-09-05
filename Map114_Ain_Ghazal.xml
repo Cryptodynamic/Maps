@@ -59,6 +59,7 @@
     <arc exit="climb" move="climb steep slope" destination="3" />
     <arc exit="go" move="go narrow building" destination="126" />
     <arc exit="go" move="go stable door" destination="127" />
+    <arc exit="go" move="go stone shop" destination="180" />
   </node>
   <node id="8" name="Ain Ghazal, Spiral Road">
     <description>A steep slope leads down to the River Road at its intersection with the East Pier.  The steady activity of passengers, skiffs, small boats, crates, barrels, and packages continues through the night.  A sheer cliff leads upward.</description>
@@ -837,7 +838,7 @@
   </node>
   <node id="126" name="Ain Ghazal, Exchange Building" note="Clerk|Minister|Trader Outpost" color="#00FF00">
     <description>The marble walls of the exchange floor are shadowed in the evening light, which seems to come from a skylight.  The skylight has a curious cover of overlapping plates of gold that form a circular shape over the glass.  A small stream of light is allowed to escape, focusing on certain tiles which create the pattern of a blue crested moon.  An oak door to the north has been deeply chiseled and painted with the image of a bag of gold, while to the south lies a grand stone arch.</description>
-    <position x="-200" y="60" z="0" />
+    <position x="-200" y="40" z="0" />
     <arc exit="south" move="south" destination="127" />
     <arc exit="out" move="out" destination="7" />
     <arc exit="go" move="go oak door" destination="128" />
@@ -845,19 +846,19 @@
   </node>
   <node id="127" name="Ain Ghazal, Caravan Stables" note="Caravan Stables" color="#00FF00">
     <description>Despite the white marble walls, the stable area at first glance seems quite ordinary except for the fact that it is strikingly clean.  Square tiles of cobbled stone are set with great accuracy across the floor, and the stable doors all look freshly whitewashed.  Large windows that look out onto a small exercise yard are constantly open to let in fresh air, while mild lavender incense drifts through the room mixed with the smell of fresh hay.</description>
-    <position x="-200" y="80" z="0" />
+    <position x="-200" y="60" z="0" />
     <arc exit="north" move="north" destination="126" />
     <arc exit="out" move="out" destination="7" />
   </node>
   <node id="128" name="Ain Ghazal, Private Depository" note="Teller" color="#00FF00">
     <description>Were it not for the bag of coins painted upon the carved door, it might be difficult to recognize this large marble room as a bank at all, despite the vault and pristine white counter at the far side of the room.  Comfortable couches sit across from each other on either side of polished counting tables, providing a place for the island's residents to rest during their errands and chat with their fellow sisters.  A tall decanter of blue liquid sits on a mirrored tray on one of the tables.</description>
-    <position x="-220" y="60" z="0" />
+    <position x="-220" y="40" z="0" />
     <arc exit="north" move="north" destination="129" />
     <arc exit="go" move="go oak door" destination="126" />
   </node>
   <node id="129" name="Ain Ghazal, Foreign Exchange Vault" note="Exchanger" color="#00FF00">
     <description>An old counting table with a carefully repaired leg has been positioned in the front part of the vault, sectioned off with hide partitions as if the office were an afterthought.  A small sign has been tacked to the partition behind the table.</description>
-    <position x="-220" y="40" z="0" />
+    <position x="-220" y="20" z="0" />
     <arc exit="south" move="south" destination="128" />
   </node>
   <node id="130" name="Ain Ghazal, Catacombs">
@@ -1175,6 +1176,35 @@
     <description>Swathed in sheer silks the hues of eventide, this room is designed with comfort and impeccable style.  Low couches of chocolate-brown velvet are piled high with golden firesilk cushions, the seating all arranged in a curving semicircle.  A gilded cage is home to a pouting fire sprite, her petulant gaze displaying her obvious unhappiness with the golden chains which bind her.</description>
     <position x="-360" y="-80" z="0" />
     <arc exit="go" move="go dark portal" destination="170" />
+  </node>
+  <node id="180" name="Ain Ghazal Crafting Society Outpost, Main Room" note="crafting society outpost" color="#FF0000">
+    <description>Broad stone arches divide the main room into several open alcoves, with a long service counter occupying the wall opposite the entrance.  Shallow geometric patterns carved into the floor radiate outward from a circular emblem at its center.  Padded benches fill one recess, while notice boards, supply ledgers, specimen cases, and rows of labeled cubbies occupy the others.</description>
+    <position x="-220" y="80" z="0" />
+    <arc exit="east" move="east" destination="181" />
+    <arc exit="southeast" move="southeast" destination="182" />
+    <arc exit="south" move="south" destination="183" />
+    <arc exit="southwest" move="southwest" destination="184" />
+    <arc exit="go" move="go ironwood door" destination="7" />
+  </node>
+  <node id="181" name="Ain Ghazal Crafting Society Outpost, Engineering Enclave" note="engineering enclave" color="#FF0000">
+    <description>Heavy workbenches stand beneath an array of articulated metal arms fitted with clamps, hooks, and adjustable braces.  Narrow channels cut through the stone floor lead toward grated drains between the tables, while pegboards hold precisely arranged tools and measuring instruments.  One wall is dominated by a broad slate panel covered with chalked diagrams, calculations, and mechanical schematics.</description>
+    <position x="-200" y="80" z="0" />
+    <arc exit="west" move="west" destination="180" />
+  </node>
+  <node id="182" name="Ain Ghazal Crafting Society Outpost, Outfitting Outlet" note="outfitting outlet" color="#FF0000">
+    <description>Long cutting tables occupy the center of the room, surrounded by dress forms, stretching frames, and racks laden with fabric and leather.  Deep drawers built beneath the tables hold needles, shears, awls, and other small tools.  Along one wall, shallow carvings of interlocking needles and looping thread border a series of tall mirrors, fitting platforms, and curtained changing alcoves.</description>
+    <position x="-200" y="100" z="0" />
+    <arc exit="northwest" move="northwest" destination="180" />
+  </node>
+  <node id="183" name="Ain Ghazal Crafting Society Outpost, Alchemy Annex" note="alchemy annex" color="#FF0000">
+    <description>A horseshoe-shaped stone counter surrounds a recessed workspace crowded with mortars, scales, alembics, and racks of glassware.  Rows of narrow niches sunk directly into the walls hold stoppered jars and ceramic vessels, each accompanied by a small slate label.  A tiled wash basin occupies one corner, with several grated floor drains nearby and copper pipes tracing the wall above it.</description>
+    <position x="-220" y="100" z="0" />
+    <arc exit="north" move="north" destination="180" />
+  </node>
+  <node id="184" name="Ain Ghazal Crafting Society Outpost, Enchanting Emporium" note="enchanting emporium" color="#FF0000">
+    <description>Concentric rings of fine geometric symbols are incised into the stone floor around a low octagonal worktable at the center of the room.  Individual workstations occupy arched recesses along the walls, separated by narrow stone partitions and fitted with shelves for runestones, inks, and implements.  Suspended lanterns hang from curved metal brackets positioned between the alcoves.</description>
+    <position x="-240" y="100" z="0" />
+    <arc exit="northeast" move="northeast" destination="180" />
   </node>
   <label text="Himineldar Shel">
     <position x="-150" y="210" z="0" />
